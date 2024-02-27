@@ -93,8 +93,7 @@ Select the variable name under Save response as and change the name of the defau
 
 3. On the Topics page, select + New topic, In the upper-right corner of the authoring canvas, select the ... to see More options, then select Open code editor.
 
-4.   ```
-     
+4.   
      kind: AdaptiveDialog
 beginDialog:
   kind: OnRecognizedIntent
@@ -148,7 +147,7 @@ beginDialog:
             - kind: SendMessage
               id: LMwySU
               message: Thank you and please come again.          
-   ```
+
 
 
 5. Select Save, and then select Close code editor. The Question node now has many conditions to the question about shipping.

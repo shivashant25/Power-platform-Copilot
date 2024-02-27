@@ -32,6 +32,15 @@ In this exercise, you will create a **Copilot** environment that you will use to
  
 13. Explore the different areas in **Settings** that you are interested in but do not make any changes.
 
-    ## Exercise 2: Enable copilot and AI in power apps
+## Exercise 2: Enable copilot and AI in power apps
+
+1. In the Admin center, go to Environments and select the environment which you previously created **Copilot**.
+   
+2. Go to **Settings** , Expand **Product**, under Products select **Features**.
+   
+3. On the Features settings page, under **AI Builder**, enable AI Builder preview models.
+   
+4. On the Features settings page, under **Copilot** , enable Copilot Preview.
+
 
     

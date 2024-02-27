@@ -15,7 +15,6 @@ In this exercise, you will create a **Copilot** environment that you will use to
  
 4.  Select **Environments** from the site navigation and select **+ New** from the toolbar.
 
-
 5.  For **Name**, enter Copilot`
 
 6.  For **Type**, select **Trial**. 
@@ -27,9 +26,9 @@ In this exercise, you will create a **Copilot** environment that you will use to
 9.  Select **Done** and select **Save**.
  
 10. In the list of environments, your **Copilot** environment should now show as **Preparing**.
+
+11. Your practice environment will take a few minutes to provision. Refresh the **Environments** list if needed.
  
-    Your practice environment will take a few minutes to provision. Refresh the **Environments** list if needed.
+12. When your environment shows as **Ready**, select your **Copilot** environment by selecting the ellipses next to the name to expand the drop-down menu and select **Settings**.
  
-11. When your environment shows as **Ready**, select your **Practice** environment by selecting the ellipses next to the name to expand the drop-down menu and select **Settings**.
- 
-12. Explore the different areas in **Settings** that you are interested in but do not make any changes. 
+13. Explore the different areas in **Settings** that you are interested in but do not make any changes. 

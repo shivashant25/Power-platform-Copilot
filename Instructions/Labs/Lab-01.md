@@ -1,11 +1,10 @@
- ## Lab -01 Enable the features of AI and copilot in the power apps.
-
+ # Lab -01 Enable the features of AI and copilot in the power apps.
   
-### Exercise 1: Create your environment in Power Apps 
+## Exercise 1: Create your environment in Power Apps 
  
 In this exercise, you will create a **Copilot** environment that you will use to do the majority of the lab work in this training.
  
-#### Task 1 – Create environment
+### Task 1 – Create environment
  
 1.  Open a new browser tab and navigate to the Power Platform admin center `https://aka.ms/ppac` 
 

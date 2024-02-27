@@ -16,7 +16,7 @@ In this exercise, you will create a **Copilot** environment that you will use to
 
 5.  For **Name**, enter Copilot`
 
-6.  For **Type**, select **Trial**. 
+6.  For **Type**, select **Sandbox**. 
 
 7.  Change the toggle on **Add a Dataverse data store?** to **Yes**. Leave all other selections as default and select **Next**.
  
@@ -30,4 +30,8 @@ In this exercise, you will create a **Copilot** environment that you will use to
  
 12. When your environment shows as **Ready**, select your **Copilot** environment by selecting the ellipses next to the name to expand the drop-down menu and select **Settings**.
  
-13. Explore the different areas in **Settings** that you are interested in but do not make any changes. 
+13. Explore the different areas in **Settings** that you are interested in but do not make any changes.
+
+    ## Exercise 2: Enable copilot and AI in power apps
+
+    

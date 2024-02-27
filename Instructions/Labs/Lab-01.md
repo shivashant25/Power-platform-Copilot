@@ -9,7 +9,7 @@ In this exercise, you will create a **Copilot** environment that you will use to
  
 1.  Open a new browser tab and navigate to the Power Platform admin center `https://aka.ms/ppac` 
 
-2.  Log in with your Microsoft 365 credentials, if prompted again.
+2.  Log in with your Microsoft 365 credentials.
  
 3.  Skip the welcome tour by closing the prompt, or select **Get Started** to begin the tour and select **Next** through each prompt. At the end, select **Done** to finish the tour.
  

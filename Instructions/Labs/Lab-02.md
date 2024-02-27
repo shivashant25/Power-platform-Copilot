@@ -85,7 +85,7 @@ Select the variable name under Save response as and change the name of the defau
 
 2. In the Question properties pane, select Question behavior to open the Question behavior pane.
 
-## Excercise 3 : Edit topics with the code editor
+## Task 4 : Edit topics with the code editor
 
 1. On the Topics page, select + New topic.
 
@@ -152,5 +152,38 @@ beginDialog:
 
 
 5. Select Save, and then select Close code editor. The Question node now has many conditions to the question about shipping.
+
+## Task 5 : Test your Microsoft Copilot Studio bot.
+
+1. If the Test bot pane is hidden, open it by selecting Test your bot.
+
+2. In the Type your message field, enter some text. If the text is similar to a trigger phrase for a topic, that topic will begin.
+
+3. Select the bot response in the Test bot pane. This takes you to the topic and the node that sent the response. Nodes that have fired display a colored checkmark and a colored bottom border.
+
+4. Continue the conversation, testing that the bot flows as intended in the topic.
+
+5. Your conversation is not automatically cleared when you save a topic. If at any point you want to clear the conversation from your test bot and start over, select the Reset button.
+
+## Track topic-to-topic.
+
+1. At the top of the Test bot pane, set Track topic-to-topic to On.
+
+2. Continue interacting with your bot. As you navigate to each node that fires, you can switch topics along with the conversation.
+
+## Test variable values
+
+1. Open the test bot.
+
+2. Open the Variables pane and select the Test tab. If a variable has values, it appears here. Any empty variables appear as undefined.
+
+3. To inspect variable properties, select the link in the value to display variable details.
+
+## Save conversation snapshots
+
+1. At the top of the Test bot pane, select the menu icon (⋮), then select Save snapshot.
+
+2. Select Save to save the bot content and conversational diagnostics in a .zip archive file named botContent.zip.
+
 
 

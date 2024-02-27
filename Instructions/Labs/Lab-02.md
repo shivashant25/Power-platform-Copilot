@@ -23,3 +23,9 @@
 2. Copilot has added two new columns called, Start Time and End Time.
 
 3. You can continue editing the table by adding features such as room status, change rooms, or set priority levels for each room. When you're ready to create your app, select Create app.
+
+4. In Power Apps Studio, on the top right, select Copilot.
+
+5 . In the Copilot panel, chat with Copilot and describe the changes you want to make such as Add a new screen.
+
+

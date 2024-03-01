@@ -10,7 +10,6 @@
    
 4. Review the connected apps and services. If a connection hasn't been made, edit or fix it and then select Create flow.
 
-Screenshot of the Review your connected apps and services page.
 
 The Edit with Copilot designer opens with your flow along with a Copilot chat window on the right.
 

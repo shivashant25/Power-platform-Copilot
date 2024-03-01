@@ -5,16 +5,15 @@
 1.	Sign in to Power Automate.
 2.	Start to describe your automation scenario.
 As you type, the cloud flows designer with Copilot shows you a list of AI generated suggested flow descriptions.
-Alternatively, you can select Create > Describe it to design it.
- 
-To learn how to write a good prompt, go to How to write a good prompt in this article.
+Alternatively, you can select Create > Describe it to design it.To learn how to write a good prompt, go to How to write a good prompt in this article.
 3.	Select a suggestion, or use the scenario you created in step 2.
 4.	To accept the flow that Copilot created for you, select Next.
 If you want to see different suggestions, you can update your prompt in this step. Alternatively, if you want to see other options, select This isn't what I'm looking for.
 5.	Review your connected apps and services, and then select Next.
 6.	To finalize your flow, configure the required settings, and then select Create flow.
-The cloud flows designer with Copilot opens with your flow.
- 
+
+## Task-02: Edit a flow using the designer with copilot capabilities
+  The cloud flows designer with Copilot opens with your flow.
 7.	On the panel to the right, follow the Copilot suggestions to complete the flow setup, or make edits to your flow using Edit with Copilot.
 8.	When your flow is complete, select Save this flow.
 9.	Once your flow is saved, we recommend that you test it. Do this by selecting Test in the upper-right corner.

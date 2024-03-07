@@ -30,35 +30,37 @@
 
 ## Task–02: Create an app with Copilot.
 
-1.	On the Home page in Power Apps, in the center text field, enter the following prompt to search for an AI-generated table build an app to manage real estate showings
+1.	On the Home page in Power Apps, Make sure you in the environment you previously created, in the center text field, enter the following prompt to search for an AI-generated table build an app to manage real estate showings.
 
-2.	Select the Send button.
+  ![screenshot of the prompt ](./Instructions/Media/copilot-chat-prompt.png)
 
-3.	Screenshot of Copilot in Power Apps prompt text field.
+3.	Select the Send button.
 
-4.	After Copilot AI generates a table based on your prompt, look through the table to view the columns that are created for the start of your table.
+4.	Screenshot of Copilot in Power Apps prompt text field.
 
-5.	Screenshot showing a generated table based on your prompt.
+5.	After Copilot AI generates a table based on your prompt, look through the table to view the columns that are created for the start of your table.
 
-6.	Your next steps are to modify and add to the already generated table.
+6.	Screenshot showing a generated table based on your prompt.
 
-7.	In the text box, in the lower part of the Copilot pane to the right of the screen, enter the following text: add a column to track client full name
+7.	Your next steps are to modify and add to the already generated table.
 
-8.	Select the Send button.
+8.	In the text box, in the lower part of the Copilot pane to the right of the screen, enter the following text: add a column to track client full name
 
-9.	Copilot notifies you that the table is updated, and the new column should show as being added to the table.
+9.	Select the Send button.
 
-10.	Screenshot of Copilot chat confirming that the table is updated and the new column showing in the table.
+10.	Copilot notifies you that the table is updated, and the new column should show as being added to the table.
 
-11.	Enter the following text into the chat:
+11.	Screenshot of Copilot chat confirming that the table is updated and the new column showing in the table.
 
-12.	add a column to track client email
+12.	Enter the following text into the chat:
 
-13.	Select the Send button.
+13.	add a column to track client email
 
-14.	A new column is added to the table and displays the client’s email.
+14.	Select the Send button.
 
-15.	Screenshot of the newly generated Client Email column.
+15.	A new column is added to the table and displays the client’s email.
+
+16.	Screenshot of the newly generated Client Email column.
 
 >Note: The data that's generated in your table might vary from the data that's shown in the table in the screenshots for this lab.
 

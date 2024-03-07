@@ -165,7 +165,6 @@ Status - Pending
 
 Address - 210 Pine Road, Portland, OR 97204
 
-
 >Note: This address is one of the addresses from the Microsoft Excel file in Module 1, and it's the same file that you uploaded and turned into the Real Estate Properties table.Though you'd usually have a lookup field to the Real Estate Properties table, this lab doesn't provide one to keep it simple.
 
 Select the check mark in the upper-right corner of the screen.
@@ -179,6 +178,8 @@ If a dialog appears saying Did you know?, select OK.
 The new request is added to the left of the list of requests.
 
 From the upper part of your screen, select the Save button to save the new app that you created.
+
+![screenshot of the prompt ](/Instructions/Media/copilot-save.png)
 
 Screenshot of the Save button in Power Apps Studio.
 

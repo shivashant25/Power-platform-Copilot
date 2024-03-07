@@ -32,43 +32,38 @@
 
 1.	On the Home page in Power Apps, Make sure you in the environment you previously created, in the center text field, enter the following prompt to search for an AI-generated table **build an app to manage real estate showings**, Select the Send button.
 
-  ![screenshot of the prompt ](/Instructions/Media/copilot-chat-prompt.png) 
+  ![screenshot of the prompt ](/Instructions/Media/01/copilot-chat-prompt-1.png) 
 
 5.	After Copilot AI generates a table based on your prompt, look through the table to view the columns that are created for the start of your table.
 
-  ![screenshot of the prompt ](/Instructions/Media/copilot-table.png)
+  ![screenshot of the prompt ](/Instructions/Media/01/copilot-table-1.png)
 
 8.	In the text box, in the lower part of the Copilot pane to the right of the screen, enter the following text: **add a column to track client full name**.Select the Send button.
 
- ![screenshot of the prompt ](/Instructions/Media/copilot-table-new-column.png)
+ ![screenshot of the prompt ](/Instructions/Media/01/copilot-table-new-column-1.png)
 
 >**Note**: Copilot notifies you that the table is updated, and the new column should show as being added to the table.
 
 12.	In the text box, in the lower part of the Copilot pane to the right of the screen, enter the following text: **add a column to track client email**. Select the Send button.
 
- ![screenshot of the prompt ](/Instructions/Media/copilot-table-new-column-email.png)
+ ![screenshot of the prompt ](/Instructions/Media/01/copilot-table-new-column-email-1.png)
 
 >**Note**:
 - The data that's generated in your table might vary from the data that's shown in the table in the screenshots for this lab.
 - The Suggestions section in the lower-left corner of the screen provides you with different suggestions on how you can add to and modify your table.
 
-16.	In the text box, in the lower part of the Copilot pane to the right of the screen, enter the following text: **add a column to track Address**. Select the Send button.
+13.  In the text box, in the lower part of the Copilot pane to the right of the screen, enter the following text:	**add an option for “Completed” to the Status column**. Select the Send 
+   button.
 
-17.	On the right of the screen, it appears as if you're having a conversation with a Copilot AI bot while adding to and modifying your table. This area is where you can scroll through and view the changes or additions that you've made to your table.
+ ![screenshot of the prompt ](/Instructions/Media/01/copilot-status-column-1.png)
 
-18.	Screenshot showing Copilot conversation history.
+22.	The system might take a minute to load. When it does, the Status column shows as updated and includes the option for Completed.
 
-19.	Edit the Status column within the table. In the text box within the Copilot pane, enter the following text and then send it:
+23.	Select the Status column name dropdown menu and then select View column where you can view the columns’ properties and the current status details and data.
 
-20.	add an option for “Completed” to the Status column
+24.	Screenshot of the Status column properties with the updated choices.
 
-21.	The system might take a minute to load. When it does, the Status column shows as updated and includes the option for Completed.
-
-22.	Select the Status column name dropdown menu and then select View column where you can view the columns’ properties and the current status details and data.
-
-23.	Screenshot of the Status column properties with the updated choices.
-
->Note : If your column choices aren't the same as the ones that are shown in the screenshot, enter the following command into the Copilot pane text box and then send it:
+    >Note : If your column choices aren't the same as the ones that are shown in the screenshot, enter the following command into the Copilot pane text box and then send it:
 
 24.	the status choices should be Pending, Confirmed, Cancelled, and Completed
 
@@ -83,24 +78,15 @@
 29.	Five more rows of data are added for each existing column in the table.
 
 30.	Screenshot of the Real Estate Showings table showing five added rows of data.
+    >**Note**: Your table should have several columns. However, to continue following the modules in this learning path, try to remove some columns that you won't use:The list of columns that you need are: ID ,	Address , Date , Time , Status , Agent Name, Client Full Name, Client Email.
 
->Note: Your table should have several columns. However, to continue following the modules in this learning path, try to remove some columns that you won't use.
+16.	In the text box, in the lower part of the Copilot pane to the right of the screen, enter the following text: **add a column to track Client Address**. Select the Send button.
 
-32.	The list of columns that you need are:
-33.	ID
-34.	Address
-35.	Date
-36.	Time
-37.	Status
-38.	Agent Name
-39.	Client Full Name
-40.	Client Email
+    ![screenshot of the prompt ](/Instructions/Media/01/client-address-1.png)
 
-41.	Use what you've learned with the Copilot Chat window to adjust your table to match the precceding list. Make sure that you refer to the Suggestions section if you need to remove a column, change a column name, or add a column.
+18.	On the right of the screen, it appears as if you're having a conversation with a Copilot AI bot while adding to and modifying your table. This area is where you can scroll through and view the changes or additions that you've made to your table.
 
-42.	To create the app, select the Create app button in the lower-right corner of the screen.
-
-43.	Screenshot of the Create app button in the lower-right corner of the screen.
+ 19 . To create the app, select the Create app button in the lower-right corner of the screen.
 
 44.	When the app first loads, a dialog might appear stating Welcome to Power Apps Studio. If so, select the Skip button.
 

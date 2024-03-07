@@ -74,7 +74,7 @@
 16.	In the text box, in the lower part of the Copilot pane to the right of the screen, enter the following text: **add a column to track Client Address**. Select the Send button
 (2), To create the app, select the Create app button in the lower-right corner of the screen.(3)
 
-    ![screenshot of the prompt ](/Instructions/Media/01/client-address-1.png)
+![screenshot of the prompt ](/Instructions/Media/01/client-address-1.png)
 
 >**Note**: Your table should have several columns. However, to continue following the modules in this learning path, try to remove some columns that you won't use:The list of columns that you need are: ID ,	Address , Date , Time , Status , Agent Name, Client Full Name, Client Email.
 
@@ -82,126 +82,106 @@
 
 45.	The app that has been built for you should show in Edit mode.
 
-46.	Screenshot of the generated app in Power Apps Studio.
+![screenshot of the prompt ](/Instructions/Media/01/reordsgallery-1.png)
 
-47.	Select the Data icon from the left navigation bar. Copilot has created a Dataverse table that's now displaying in the Environments section.
-
-48.	Screenshot of the Dataverse table called Real Estate Showings in the Data panel of Power Apps Studio.
-
->Note: Currently, Copilot is only supported for Dataverse. You can't use any other data access point at this time.
 
 ## Task–03: Make edits using Copilot to edit your app.
 
-1.	Next, you'll edit the table now that the app has been created.
+1.	Next, you'll edit the table now that the app has been created.Within the Data pane, hover your mouse cursor over the table. To the right of the table, select the ellipsis (...),From the menu, select Edit data.
 
-2.	Within the Data pane, hover your mouse cursor over the table. To the right of the table, select the ellipsis (...).
+   ![screenshot of the prompt ](/Instructions/Media/copilot-edit-data.png)
 
-3.	From the menu, select Edit data.
+8.	Select the ID column header from the table.	From the dropdown menu, select the Edit column option.
+   
+ ![screenshot of the prompt ](/Instructions/Media/01/copilot-edit-column-1.png)
+  
+11.	In this example, you don't want the Data type to be a Single line of text. To change that value, go to the Edit column pane, and then from the Date type dropdown menu, select # Autonumber,	Select Save.Select the Close button in the lower-right corner of the Edit table dialog.
 
-4.	Screenshot showing the action of selecting the Edit data option.
+    ![screenshot of the prompt ](/Instructions/Media/01/save-column-1.png)
 
-5.	In the Edit table dialog, you can add your own columns to the table or modify existing columns.
+15.	The table should now show as Refreshed in the Data pane.
 
-6.	Screenshot of the Edit table dialog with the Real Estate Properties data.
+   ![screenshot of the prompt ](/Instructions/Media/01/copilot-refreshed-table-1.png)
 
-7.	Select the ID column header from the table.
+17.	Modify the gallery in the application so that it displays the relevant data. Select the Tree view icon to return to the Tree view.
 
-8.	From the dropdown menu, select the Edit column option.
+18.	On the app's main screen, select RecordsGallery1 to display Real Estate Showings and then select the edit button to put the gallery in edit mode.
 
-9.	Screenshot showing the action of editing a column within the Edit table dialog.
+    ![screenshot of the prompt ](/Instructions/Media/01/editing-1.png)
 
-10.	In this example, you don't want the Data type to be a Single line of text. To change that value, go to the Edit column pane, and then from the Date type dropdown menu, select # Autonumber.
+20.	Select the Title and then set the Text value to the following formula: **ThisItem.'client Address'**
+  
+21.	Select the Subtitle and then set the Text value to the following formula: **ThisItem.'Client Email'**
 
-11.	Select Save.
+23.	Select the Body and then set the Text value to the following formula: **ThisItem.Status**
 
-12.	Screenshot highlighting the Autonumber data type and the Save button.
+25.	A single record in the gallery should now resemble the following image.
 
-13.	Select the Close button in the lower-right corner of the Edit table dialog.
+ ![screenshot of the prompt ](/Instructions/Media/01/copilot-checkmark-2.png)
 
-14.	The table should now show as Refreshed in the Data pane.
+27.	On the app's main screen, select the Form control.
 
-15.	Screenshot showing that the Real Estate Showings table has been refreshed.
+    ![screenshot of the prompt ](/Instructions/Media/01/copilot-checkmark-1.png)
 
-16.	Modify the gallery in the application so that it displays the relevant data. Select the Tree view icon to return to the Tree view.
+30.	On the Properties pane on the right, under the Fields property, select Edit fields.
 
-17.	On the app's main screen, select RecordsGallery1 to display Real Estate Showings and then select the edit button to put the gallery in edit mode.
+ ![screenshot of the prompt ](/Instructions/Media/01/copilot-edit-fields-1.png)
 
-18.	Select the Title and then set the Text value to the following formula:
+32.	In the Fields pane, expand the ID field.
 
-19.	ThisItem.Address
+33.	From the Control type dropdown menu, change the type to View text.
 
-20.	Select the Subtitle and then set the Text value to the following formula:
+    ![screenshot of the prompt ](/Instructions/Media/01/copilot-view-text-1.png)
 
-21.	ThisItem.'Client Email'
+ >**Note**:previously changed the ID field to Autonumber, you don’t want users entering their own number; Dataverse automatically enters the numbers for you.
 
-22.	Select the Body and then set the Text value to the following formula:
+37.	In the Fields pane, select the X in the upper-right corner to close the pane.
 
-23.	ThisItem.Status
+38.	Make a new request for a property that shows in the app by selecting the **Play** button from the upper part of the screen.
 
-24.	A single record in the gallery should now resemble the following image.
+ ![screenshot of the prompt ](/Instructions/Media/01/copilot-play-1.png)
 
-25.	Screenshot of a single record in the Real Estate Showings Gallery.
+40.	In the left pane, select the +New button.
 
-26.	On the app's main screen, select the Form control.
+ ![screenshot of the prompt ](/Instructions/Media/01/copilot-new-1.png)
 
-27.	Screenshot of the selected form control from the app's main screen.
+43.	Though you could modify the form to automatically fill in the fields for you, for this lab, you'll complete this step manually to observe how the app works.
 
-28.	On the Properties pane on the right, under the Fields property, select Edit fields.
+    ![screenshot of the prompt ](/Instructions/Media/01/copilot-checkmark-1.png)
 
-29.	Screenshot showing the Edit fields option on the Properties pane.
+45.	Fill in the fields with the following information:
 
-30.	In the Fields pane, expand the ID field.
+	Agent Name - < Your name >
 
-31.	From the Control type dropdown menu, change the type to View text.
+Client Full Name - < Your name >
 
-32.	Screenshot showing the action of changing the ID control type to View text.
+Client Email - < Your email >
 
-33.	Because you previously changed the ID field to Autonumber, you don’t want users entering their own number; Dataverse automatically enters the numbers for you.
+Date - < Any future date >
 
-34.	In the Fields pane, select the X in the upper-right corner to close the pane.
+Time - < Any future time >
 
-35.	Make a new request for a property that shows in the app by selecting the Play button from the upper part of the screen.
+Status - Pending
 
-36.	Screenshot of the Play button in Power Apps Studio.
+Address - 210 Pine Road, Portland, OR 97204
 
-37.	In the left pane, select the +New button.
-
-38.	Screenshot highlighting the add New record button in Power Apps Studio.
-
-39.	Though you could modify the form to automatically fill in the fields for you, for this lab, you'll complete this step manually to observe how the app works.
-
-40.	Fill in the fields with the following information:
-
-41.	Agent Name - < Your name >
-
-42.	Client Full Name - < Your name >
-
-43.	Client Email - < Your email >
-
-44.	Date - < Any future date >
-
-45.	Time - < Any future time >
-
-46.	Status - Pending
-
-47.	Address - 210 Pine Road, Portland, OR 97204
 
 >Note: This address is one of the addresses from the Microsoft Excel file in Module 1, and it's the same file that you uploaded and turned into the Real Estate Properties table.Though you'd usually have a lookup field to the Real Estate Properties table, this lab doesn't provide one to keep it simple.
 
-48.	Select the check mark in the upper-right corner of the screen.
+Select the check mark in the upper-right corner of the screen.
 
-49.	Screenshot of the completed form, showing the check mark that you select to save your changes.
+Screenshot of the completed form, showing the check mark that you select to save your changes.
 
-50.	Select the X in the upper-right corner to close out of the app.
+Select the X in the upper-right corner to close out of the app.
 
-51.	If a dialog appears saying Did you know?, select OK.
+If a dialog appears saying Did you know?, select OK.
 
-52.	The new request is added to the left of the list of requests.
+The new request is added to the left of the list of requests.
 
-53.	From the upper part of your screen, select the Save button to save the new app that you created.
+From the upper part of your screen, select the Save button to save the new app that you created.
 
-54.	Screenshot of the Save button in Power Apps Studio.
+Screenshot of the Save button in Power Apps Studio.
 
-55.	If the system prompts you, save the app name as Real Estate Showings.
+If the system prompts you, save the app name as Real Estate Showings.
 
-56.	Exit the app to return to the Power Apps home page.
+Exit the app to return to the Power Apps home page.

@@ -2,7 +2,7 @@
 
 ## Task-01: Create a Flow.
 
-1.	Sign in to **Power Automate**.
+1.	Sign in to **https://make.powerautomate.com**.
    
 2.	Start to describe your automation scenario.
    

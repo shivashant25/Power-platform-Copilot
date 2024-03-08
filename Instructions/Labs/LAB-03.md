@@ -2,21 +2,27 @@
 
 # Task-01: Create a new topic.
 
-1.	Your first task is to create a new topic by following these steps:
+1.Login to **https://copilotstudio.microsoft.com/**
 
-2.	Open the Microsoft Copilot Studio authoring canvas and navigate to the User 1 Contoso Customer Copilot you created previously. Select the Topics page from the navigation menu to the left of the screen.
+ ![screenshot of the prompt ](/Instructions/Media/03/login-1.png)
 
-3.	Then select the New Topic drop down at the top of the page and choose the From Blank option. Enter Check Weather as the name of your topic.
+2.Create a new copilot named **User 1 Contoso Customer**
+   
+ ![screenshot of the prompt ](/Instructions/Media/03/login-2.png)
+	
+3.Open the **Microsoft Copilot Studio authoring canvas** and navigate to the **User 1 Contoso Customer** Copilot you created previously. Select the Topics page from the navigation menu to the left of the screen.
 
-4.	Enter simple trigger phrases that a user might ask, such as What is the weather and What is the temperature today, until you have at least five trigger phrases. Select the Edit button within the node to open a pane to the right of the screen where you can add the trigger phrases.
+4.	Then select the **New Topic** drop down at the top of the page and **choose the From Blank** option. Enter **Check Weather** as the name of your topic.
 
-5.	Screenshot of adding trigger phrases to the node about the weather.
+5.	Enter simple trigger phrases that a user might ask, such as **What is the weather** and **What is the temperature today**, until you have at least five trigger phrases. Select the **Edit** button within the node to open a pane to the right of the screen where you can add the trigger phrases.
 
-6.	Create a new Question node below the trigger phrase node and then enter text, such as: Of course, I can share the weather with you! Can you tell me the name of the region where you want to know the weather?
+   ![screenshot of the prompt ](/Instructions/Media/03/phrases.png)
 
-7.	Screenshot of adding a question node about the weather.
+8.	Create a **new Question node** below the trigger phrase node and then enter text, such as: **Of course, I can share the weather with you! Can you tell me the name of the region where you want to know the weather?**
 
-8.	For these modules, you store the User's entire response; however, you could also use the Country or region entity so that you can use slot filling to detect the country/region from the user's response to the question.
+ ![screenshot of the prompt ](/Instructions/Media/03/Question.png)
+
+10.	For these modules, you store the User's entire response; however, you could also use the Country or region entity so that you can use slot filling to detect the country/region from the user's response to the question.
 
 > Tip: You could detect or estimate the user's region from another topic or time zone area system variable.
 

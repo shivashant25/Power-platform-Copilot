@@ -12,77 +12,79 @@
 	
 3.Open the **Microsoft Copilot Studio authoring canvas** and navigate to the **User 1 Contoso Customer** Copilot you created previously. Select the Topics page from the navigation menu to the left of the screen.
 
-4.	Then select the **New Topic** drop down at the top of the page and **choose the From Blank** option. Enter **Check Weather** as the name of your topic.
+4.Then select the **New Topic** drop down at the top of the page and **choose the From Blank** option. Enter **Check Weather** as the name of your topic.
 
-5.	Enter simple trigger phrases that a user might ask, such as **What is the weather** and **What is the temperature today**, until you have at least five trigger phrases. Select the **Edit** button within the node to open a pane to the right of the screen where you can add the trigger phrases.
+5.Enter simple trigger phrases that a user might ask, such as **What is the weather** and **What is the temperature today**, until you have at least five trigger phrases. Select the **Edit** button within the node to open a pane to the right of the screen where you can add the trigger phrases.
 
    ![screenshot of the prompt ](/Instructions/Media/03/phrases.png)
 
-8.	Create a **new Question node** below the trigger phrase node and then enter text, such as: **Of course, I can share the weather with you! Can you tell me the name of the region where you want to know the weather?**
+6.Create a **new Question node** below the trigger phrase node and then enter text, such as: **Of course, I can share the weather with you! Can you tell me the name of the region where you want to know the weather?**
 
- ![screenshot of the prompt ](/Instructions/Media/03/Question.png)
+ ![screenshot of the prompt ](/Instructions/Media/3.1/question.png)
 
-10.	For these modules, you store the User's entire response; however, you could also use the Country or region entity so that you can use slot filling to detect the country/region from the user's response to the question.
+7.For these modules, you store the User's entire response; however, you could also use the Country or region entity so that you can use slot filling to detect the country/region from the user's response to the question.
 
-> Tip: You could detect or estimate the user's region from another topic or time zone area system variable.
+>**Note**: You could detect or estimate the user's region from another topic or time zone area system variable.
 
-11.	Rename the variable to Region. To do so, select the name of the variable within the node. Within a pane that appears to the right of the screen, you can change the name. The node should then appear as it does in the following screenshot.
+8.Rename the variable to **Region**. To do so, select the name of the variable within the node. Within a pane that appears to the right of the screen.
 
-12.	Screenshot of adding the identify value and changing the variable name.
+ ![screenshot of the prompt ](/Instructions/Media/3.1/phraese1.png)
 
-13.	Within the top right corner of the screen, select the Save button to ensure that your work is saved.
+9.Within the top right corner of the screen, select the Save button to ensure that your work is saved.
 
 ## Task-02: Create your Power Automate flow
 
-1.	Next, you create your Power Automate flow by following these steps:
+1.create your Power Automate flow by following these steps:
 
-2.	Select the Add node button below the question node to add a new node to the topic. Select Call an action > Create a flow, as shown in the following screenshot. Power Automate opens in a new browser window and includes the scaffolding pre and post actions for a new Power Automate flow to interact with Microsoft Copilot Studio, as shown in the second screenshot.
+2.Select the Add node button below the question node to add a new node to the topic. Select Call an action > Create a flow, as shown in the following screenshot. Power Automate opens in a new browser window and includes the scaffolding pre and post actions for a new Power Automate flow to interact with Microsoft Copilot Studio, as shown in the second screenshot.
 
-3.	Screenshot of using the Call an action property.
+   ![screenshot of the prompt ](/Instructions/Media/3.1/get-temp.png)
 
-4.	Screenshot of scaffolding of the Power Automate flow that was automatically created.
+3.Examine the preceding screenshot to note the scaffolding that occurs when you create a new Power Automate flow by using Microsoft Copilot Studio. Two nodes are automatically created. The first node is the input that the flow expects from Microsoft Copilot Studio. You don't need to set inputs within this action; however, a common input would be a user utterance or variable, such as the country/region specified in the example. The second node is the output that a maker can return to Microsoft Copilot Studio after the flow retrieves or completes the operations within the automation.
 
-5.	Examine the preceding screenshot to note the scaffolding that occurs when you create a new Power Automate flow by using Microsoft Copilot Studio. Two nodes are automatically created. The first node is the input that the flow expects from Microsoft Copilot Studio. You don't need to set inputs within this action; however, a common input would be a user utterance or variable, such as the country/region specified in the example. The second node is the output that a maker can return to Microsoft Copilot Studio after the flow retrieves or completes the operations within the automation.
+ ![screenshot of the prompt ](/Instructions/Media/3.1/powerflow.png)
 
->Important: Make sure that you keep the Microsoft Copilot Studio pre and post actions at the top and bottom of your Power Automate flow to ensure that the data can be passed to and from Power Automate from Microsoft Copilot Studio.
+>**Note**: Make sure that you keep the Microsoft Copilot Studio pre and post actions at the top and bottom of your Power Automate flow to ensure that the data can be passed to and from Power Automate from Microsoft Copilot Studio.
 
-6.	In the new flow window that opens, select the Add an input within the first scaffolded action. Then, select Text.
+4.In the new flow window that opens, select the Add an input within the first scaffolded action. Then, select **Text**.
 
-7.	Screenshot of Adding a text input.
+![screenshot of the prompt ](/Instructions/Media/3.1/txt.png)
 
-8.	Within the first column, enter Region (leaving the second column empty).
 
-9.	Then, select the Insert new step button to add a new action.
+5.	Within the first column, enter Region (leaving the second column empty).
 
-10.	Screenshot of adding a new step into the flow.
+6.	Then, select the **Insert new step** button to **add a new action**.
 
-11.	Select the Add an action option from the menu.
+![screenshot of the prompt ](/Instructions/Media/3.1/region.png)
 
-12.	Enter weather in the search bar and then select Get current weather by MSN Weather.
+12.	Select the **Add an action** option from the menu.
 
-13.	Screenshot of Choose an operation, showing search results for weather.
+13.	Enter **weather** in the search bar and then select Get current weather by MSN Weather.
+    
+    ![screenshot of the prompt ](/Instructions/Media/3.1/weather.png)
 
-14.	A new node appears, where you can enter the location and units. When you select into the Location field, as shown in the following screenshot, the Dynamic content option displays.
 
-15.	Dynamic content is real-time data, and in this scenario, the region data would be the data passed from Microsoft Copilot Studio that you set up at the beginning of the topic and requested from your user. From the Dynamic content drop-down menu, select Region and then keep units as Imperial.
+16.	A new node appears, where you can enter the location and units. When you select into the Location field, as shown in the following screenshot, the Dynamic content option displays.
 
-16.	You're sending the Region data from the user to the weather service from MSN Weather. The flow will get this data and make it available for you to return to the user in Microsoft Copilot Studio in the next steps.
+17.	Dynamic content is real-time data, and in this scenario, the region data would be the data passed from Microsoft Copilot Studio that you set up at the beginning of the topic and requested from your user. From the Dynamic content drop-down menu, select Region and then keep units as Imperial.
 
-17.	Screenshot of passing Dynamic content into the Get current weather action.
+18.	You're sending the Region data from the user to the weather service from MSN Weather. The flow will get this data and make it available for you to return to the user in Microsoft Copilot Studio in the next steps.
 
-18.	Select theReturn value(s) to Microsoft Copilot Studio node at the end of the flow, then select Add an output > Text. Place your cursor in the Enter a value to respond text box. The Dynamic content panel opens from the result of the Get current weather API action in the previous step. Select Temperature from dynamic data to add it to the response text box. Then, enter Temperature in the Title field.
+ ![screenshot of the prompt ](/Instructions/Media/3.1/getcurrent.png)
 
-19.	Screenshot of using the Temperature dynamic content.
+20.	Select theReturn value(s) to Microsoft Copilot Studio node at the end of the flow, then select Add an output > Text. Place your cursor in the Enter a value to respond text box. The Dynamic content panel opens from the result of the Get current weather API action in the previous step. Select Temperature from dynamic data to add it to the response text box. Then, enter Temperature in the Title field.
 
-20.	You built an API request to the MSN Weather service where you entered the Region from Microsoft Copilot Studio. The MSN Weather service retrieves the data for the region, and when you have that data (almost instantly), you can return it to Microsoft Copilot Studio and the user.
+21.	Screenshot of using the Temperature dynamic content.
 
-21.	The flow is almost complete. You need to rename it before you can move on to best practices so that administrators and users can more easily find it in Microsoft Copilot Studio. Select the template title and rename it to Get Temperature, as shown in the following screenshot.
+22.	You built an API request to the MSN Weather service where you entered the Region from Microsoft Copilot Studio. The MSN Weather service retrieves the data for the region, and when you have that data (almost instantly), you can return it to Microsoft Copilot Studio and the user.
 
-22.	Select Save on the flow in Power Automate to ensure that it saves. Wait a moment until the green banner appears, indicating success.
+23.	The flow is almost complete. You need to rename it before you can move on to best practices so that administrators and users can more easily find it in Microsoft Copilot Studio. Select the template title and rename it to Get Temperature, as shown in the following screenshot.
 
-23.	Screenshot of renaming and saving the flow.
+24.	Select Save on the flow in Power Automate to ensure that it saves. Wait a moment until the green banner appears, indicating success.
 
-24.	You completed your work in Power Automate. Next, you switch to Microsoft Copilot Studio.
+25.	Screenshot of renaming and saving the flow.
+
+26.	You completed your work in Power Automate. Next, you switch to Microsoft Copilot Studio.
 
 ## Task-03 : Connect a Power Automate flow with Microsoft Copilot Studio.
 

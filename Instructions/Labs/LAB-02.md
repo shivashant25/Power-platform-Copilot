@@ -134,7 +134,7 @@ Under the "Update a row" action for both branches in the condition, add a new "S
 
 After a few seconds, Copilot should explain what it did, as shown in the following image.
 
-![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-explains.png)
+![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-explains-1.png)
 
 The updated flow should display.
 
@@ -266,5 +266,5 @@ Add a comment and then select Submit.
 
 Check the flow and notice that the flow is now marked as Succeeded in the run history.
 
-![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-flow-succeeded.png)
+![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-flow-succeeded-1.png)
 

@@ -1,6 +1,30 @@
 # Lab-05: Share a cloud flow.
 
-## Task-01: Add an owner to a cloud flow.
+# Task-01 : Create A cloud Flow
+
+1.	Sign into Power Automate.
+2.	On the menu to the left, select Solutions.
+3.	Select the solution in which you'll create your flow.
+4.	Select New > Automation > Cloud flow > Automated.
+
+>**Note**: If an automated cloud flow doesn't meet your requirements, you can create any other type of flow, Power Automate opens.
+
+5.	Use the available connectors and triggers to build your flow. we'll build a flow that sends a notification when an email arrives in your inbox.
+6.	Give your flow a name as **my child flow**.
+7.	Search for, new email in the Search all triggers box.
+8.	Select the When a new email arrives (V3) trigger.
+9.	Sign in to the outlook.
+10.	Select Create.
+11.	Select New step.
+12.	Search for Notification, and then select the Send me a mobile notification action.
+
+13.	Add the Subject dynamic token to the Text field of the Send me a mobile notification card.
+14.	Select Save to save your flow.
+Your flow should look like the following screenshot.
+
+15.	Select Solutions to see your flow in the solution.
+
+## Task-02: Add an owner to a cloud flow.
 
 1. Adding an owner to a cloud flow is the most common way to share a cloud flow. Any owner of a cloud flow can perform these actions:
    
@@ -16,7 +40,7 @@
 
 > Note: The creator or an owner of a cloud flow, you'll find it listed on the Team flows tab in Power Automate, Shared connections can be used only in the flow in which they were created.Owners can use services in a cloud flow but can't modify the credentials for a connection that another owner created.To add more owners to a cloud flow:
 
-8.	Sign in to Power Automate, and then select My flows.
+8.	Sign in to **https://make.powerautomate.com/**, and then select My flows.
    
 9.	Select the flow that you want to share, select the vertical ellipsis (⋮), and then select Share.
     
@@ -67,15 +91,7 @@ Share a cloud flow with run-only permissions.
  
 **Congratulations—the user or group now has access to run the flow.!!**
 
-## Task-04: To remove a run-only user:
-
-1.	On the flow details page, in the Run only users section, select Edit.
-   
-2.	In the Manage run-only permissions panel, select Delete (the trash can) next to the user whose access you want to remove, and then select Save.
-   
-Congratulations—the user or group no longer has access to run this flow.
-
-**Send a copy of a cloud flow**
+## Task-04: **Send a copy of a cloud flow**
 
 >**Note**: You can send a copy of a cloud flow to another user, who can then use the definition of the flow as a template. It provides a good way for you to share the general structure of a cloud flow without sharing any connections, while also allowing the recipient to modify their flow independently of yours, so they can make it fit their needs.
 Sending a copy creates an independent instance of the flow for the recipient. You can't revoke access to the flow after you share it.

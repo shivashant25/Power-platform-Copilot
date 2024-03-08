@@ -10,16 +10,15 @@
    
 4. Review the connected apps and services. If a connection hasn't been made, edit or fix it and then select Create flow.
 
-
 The Edit with Copilot designer opens with your flow along with a Copilot chat window on the right.
 
-![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-prompt.png)
+![screenshot of the prompt ](/Instructions/Media/02/01.png)
 
 5. Set up some parameters by selecting the When a row is added, modified or deleted trigger.
 
 A panel on the left side of the screen shows the trigger details, including an empty Table Name parameter that's required.
 
-![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-suggested-flow.png)
+![screenshot of the prompt ](/Instructions/Media/02/02.png)
 
 6. From the Table Name dropdown menu, search for and select Real Estate Showings.
 

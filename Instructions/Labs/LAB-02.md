@@ -13,29 +13,29 @@
 
 The Edit with Copilot designer opens with your flow along with a Copilot chat window on the right.
 
-Screenshot displaying the Edit with Copilot designer.
+![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-prompt.png)
 
 5. Set up some parameters by selecting the When a row is added, modified or deleted trigger.
 
 A panel on the left side of the screen shows the trigger details, including an empty Table Name parameter that's required.
 
-Screenshot displaying the When a row is added, modified or deleted trigger details.
+![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-suggested-flow.png)
 
 6. From the Table Name dropdown menu, search for and select Real Estate Showings.
 
-Screenshot highlighting the Table Name property in the When a row is added, modified or deleted trigger.
+![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-table-name.png)
 
 7. Select the Start and wait for an approval action.
 
 Notice that the Approval Type parameter is missing.
 
-Screenshot highlighting the Approval Type property in the Start and wait for an approval action.
+![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-approval-type.png)
 
 8. From the Approval Type dropdown menu, select Approve/Reject - First to respond.
 
 After you select the Approval Type, more parameters are now available.
 
-Screenshot displaying the extra parameters after you select the approval type.
+![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-approval-type-selected.png)
 
 9. In the Copilot chat window, enter the following prompt:
 
@@ -43,7 +43,7 @@ Add "New Request for Real Estate Showing" as the Title parameter for the Start a
 
 It takes a few seconds for Copilot to process the prompt. When processing is complete, the Title parameter is populated with the prompt text.
 
-Screenshot displaying how the Title parameter is populated with the prompt text.
+![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-title-parameter.png)
 
 10. For the Assigned To parameter, enter the email address that you're using for this lab. This email address is the one that receives the approval request.
 
@@ -53,45 +53,45 @@ A new request for a real estate showing has been created. Please review the deta
 
 Property: Client: Client Email: Date: Time:
 
-Screenshot displaying how the Details parameter is populated with text.
+![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-details-parameter.png)
 
 12. Place your curser next to Property: in the Details parameter and then select the lightning icon to open the Dynamic content pane.
 
-Screenshot highlighting the Dynamic content icon.
+![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-dynamic-content-icon.png)
 
 13. In the Dynamic content pane, select See More to expand the list of available dynamic content.
 
-Screenshot displaying where the See More link is located.
+![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-see-more.png)
 
 14. Scroll down until you find the Address field and then select it.
 
-Screenshot displaying how the property field is selected.
+![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-property-field.png)
 
 The Address dynamic content field is now added to the Details parameter.
 
-Screenshot displaying how the property dynamic content field is added to the Details parameter.
+![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-property-field-added.png)
 
 15. Complete the same steps for the Client, Client Email , Date, and Time fields.
 
 When you're done with the rest of the fields, the values should resemble the following image.
 
-Screenshot displaying how the Client, Client Email, Date, and Time dynamic fields are added to the details parameter.
+![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-details-parameter-added.png)
 
 16. With the Details parameter completed, you can collapse the Start and wait for an approval action by selecting the double arrow icon.
 
-Screenshot showing the double arrow icon to collapse the Start and wait for an approval action.
+![screenshot of the prompt ](/Instructions/Media/02/copilot-start-wait-approval-collapsed.png)
 
 17. Select the Condition action.
 
-Screenshot showing the Condition action selected.
+![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-condition.png)
 
 18. Select the Choose a value box and then select Outcome from the Dynamic content pane.
 
-Screenshot of the Outcome dynamic content selected.
+![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-outcome.png)
 
 19. Select is equal to for the condition and then enter Approve for Value.
 
-Screenshot showing the condition set to Approve.
+![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-approve-condition.png)
 
 20. Collapse the Condition action and then select the Update a row action under the True branch of the condition.
 
@@ -99,17 +99,17 @@ Screenshot showing the condition set to Approve.
 
 22. Select the Row ID field and then select the Real Estate Showings unique identifier field from the Dynamic content pane.
 
-23. Screenshot highlighting the Row ID field in the Update a row action.
+![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-row-id.png)
 
 Whenever you create a table in Microsoft Dataverse, a column is automatically created with the same name of the table. This column serves as the unique lookup ID for the record (or row) that was created.
 
 24. Select Show all under Advanced parameters.
 
-Screenshot displaying the Show all link under Advanced parameters.
+![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-show-all.png)
 
 25. Select Confirmed from the Status dropdown menu.
 
-Screenshot displaying the Status property as Confirmed.
+![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-confirmed-status.png)
 
 When a showing is approved, the Status field in the Real Estate Showings table is updated to Confirmed.
 
@@ -135,11 +135,11 @@ Under the "Update a row" action for both branches in the condition, add a new "S
 
 After a few seconds, Copilot should explain what it did, as shown in the following image.
 
-Screenshot displaying how Copilot explains what it did.
+![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-explains.png)
 
 The updated flow should display.
 
-Screenshot of the updated flow with a new Send an email action.
+![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-updated-flow.png)
 
 32. Select the Send an email action under the True branch of the condition.
 
@@ -151,7 +151,7 @@ Add "Your request for a real estate showing has been approved" as the Subject pa
 
 The Subject field should populate with the prompt text.
 
-Screenshot displaying how the Subject field is populated with the prompt text.
+![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-subject-parameter.png)
 
 35. For the Body field, enter the following text into the Copilot chat window and then press the Enter key on your keyboard:
 
@@ -159,7 +159,7 @@ Add "Good day - Your request for a real estate showing has been approved. Please
 
 The Body field should populate with the prompt text.
 
-Screenshot displaying how the Body field is populated with the prompt text.
+![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-body-parameter.png)
 
 36. Enter the following content after the Body text:
 
@@ -173,11 +173,11 @@ Showing Time:
 
 Add the Address, Agent Name, Date, and Time fields from the Dynamic content pane to the appropriate lines in the Body text.
 
-Screenshot displaying how the Address, Agent Name, Date, and Time dynamic content fields are added to the Body text.
+![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-body-parameter-added.png)
 
 Add the Response summary field from the Dynamic content pane to the end of the Body text.
 
-Screenshot displaying how the Response summary field is added to the Body text.
+![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-response-comment.png)
 
 Collapse the Send an email action.
 
@@ -207,21 +207,20 @@ Add the Address, Agent Name, Date, and Time fields from the Dynamic content pane
 
 38. Add the Response summary field from the Dynamic content pane to the end of the Body text.
 
-Screenshot displaying how the Response summary field is added to the Body text for the rejected email.
+![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-response-comment-rejected.png)
 
 Collapse the Send an email action.
 
 39. Rename the flow to Request Approval for Real Estate Showing by selecting the request approval when a Dataverse record is created text in the upper-left corner of the screen.
 
-Screenshot highlighting the renaming of the flow.
+![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-rename-flow.png)
 
 Save the flow by selecting the Save button in the upper-right corner of the screen.
 
-Screenshot of the Save button.
-
+![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-save.png)
 Test the flow by selecting the Test button in the upper-right corner of the screen. Select Manually and then select Test.
 
-Screenshot of the Test Flow process.
+![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-test.png)
 
 To submit a real estate showing request, go to the Real Estate Showings app in Power Apps.
 
@@ -254,19 +253,19 @@ Sign in to the email account that you're using for this lab and then wait for th
 
 The approval should resemble the following image.
 
-Screenshot displaying the approval email in Outlook.
+![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-approval-email.png)
 
 43. Select Approve.
 
 Add a comment and then select Submit.
 
-Screenshot of the approval in Outlook.
+![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-approval-submitted.png)
 
 44. The flow continues to run; it updates the row and sends an email to the requestor. The email that's sent to the requester resembles the following image.
 
-Screenshot of the approval email that's sent to the client.
+![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-approval-emails.png)
 
 Check the flow and notice that the flow is now marked as Succeeded in the run history.
 
-Screenshot displaying how the flow is marked as succeeded.
+![screenshot of the prompt ](/Instructions/Media/02/power-automate-copilot-flow-succeeded.png)
 

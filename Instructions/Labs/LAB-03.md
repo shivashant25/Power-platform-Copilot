@@ -34,7 +34,6 @@
 
 ## Task-02: Create your Power Automate flow
 
-1.create your Power Automate flow by following these steps:
 
 2.Select the Add node button below the question node to add a new node to the topic. Select Call an action > Create a flow, as shown in the following screenshot. Power Automate opens in a new browser window and includes the scaffolding pre and post actions for a new Power Automate flow to interact with Microsoft Copilot Studio, as shown in the second screenshot.
 
@@ -74,31 +73,31 @@
 
 20.	Select theReturn value(s) to Microsoft Copilot Studio node at the end of the flow, then select Add an output > Text. Place your cursor in the Enter a value to respond text box. The Dynamic content panel opens from the result of the Get current weather API action in the previous step. Select Temperature from dynamic data to add it to the response text box. Then, enter Temperature in the Title field.
 
-21.	Screenshot of using the Temperature dynamic content.
+![screenshot of the prompt ](/Instructions/Media/03/temperature.png)
 
-22.	You built an API request to the MSN Weather service where you entered the Region from Microsoft Copilot Studio. The MSN Weather service retrieves the data for the region, and when you have that data (almost instantly), you can return it to Microsoft Copilot Studio and the user.
+21.You built an API request to the MSN Weather service where you entered the Region from Microsoft Copilot Studio. The MSN Weather service retrieves the data for the region, and when you have that data (almost instantly), you can return it to Microsoft Copilot Studio and the user.
 
 23.	The flow is almost complete. You need to rename it before you can move on to best practices so that administrators and users can more easily find it in Microsoft Copilot Studio. Select the template title and rename it to Get Temperature, as shown in the following screenshot.
 
-24.	Select Save on the flow in Power Automate to ensure that it saves. Wait a moment until the green banner appears, indicating success.
+24.Select Save on the flow in Power Automate to ensure that it saves. Wait a moment until the green banner appears, indicating success.
 
-25.	Screenshot of renaming and saving the flow.
+![screenshot of the prompt ](/Instructions/Media/03/save.png)
 
-26.	You completed your work in Power Automate. Next, you switch to Microsoft Copilot Studio.
+25.You completed your work in Power Automate. Next, you switch to Microsoft Copilot Studio.
 
 ## Task-03 : Connect a Power Automate flow with Microsoft Copilot Studio.
 
-1.	In this task, you connect a Power Automate flow with Microsoft Copilot Studio.
+1.In this task, you connect a Power Automate flow with Microsoft Copilot Studio.
 
-2.	Open your existing topic in Microsoft Copilot Studio, entitled Weather, and return to the bottom of your flow, as shown in the following screenshot. Select Call an action. Your new Power Automate flow displays in the list. From the list, select Get Temperature.
+2.Open your existing topic in Microsoft Copilot Studio, entitled Weather, and return to the bottom of your flow, as shown in the following screenshot. Select Call an action. Your new Power Automate flow displays in the list. From the list, select Get Temperature.
 
-3.	Screenshot of selecting the Get Temperature flow.
+![screenshot of the prompt ](/Instructions/Media/03/get-temperature.png)
 
 4.	When you select the Get Temperature flow, a new Action node is created automatically. If the flow requires an input, it requests that you select the value. Because the flow that you created in the previous steps has the input of Region, you need to add this input into the Power Automate action by selecting the variable that the value is stored in from the user, which is Region, from the previous steps in the lab.
 
 5.	Select Enter or select a value and then select the Region variable that you created in previous steps of this lab. This value is now connected to the Power Automate flow and displays the result from Power Automate into the Temperature variable.
 
-6.	Screenshot of mapping the Microsoft Copilot Studio variable to the flow.
+![screenshot of the prompt ](/Instructions/Media/3.1/shit.png)
 
 7.	Now, you can skip to displaying the output in a message by using the variable in a Message node. However, if you're following along with the Contoso Coffee sample data provided in the previous labs, you continue with the steps to make it relevant for the Contoso Coffee scenario. You can convert the returned data, which was a string that was returned from Power Automate, to a number by using Microsoft Power Fx. You can convert that data by adding a Set Variable Value node, which creates a new Global variable called FormattedTemperature.
 
@@ -110,13 +109,13 @@
 
 11.	Then, select Insert.
 
-12.	Screenshot of the Power F X formula for converting string to text.
+12. ![screenshot of the prompt ](/Instructions/Media/3.1/enter-for.png)
 
 13.	Next, select the Set variable field within the node. From the menu, select the Create new variable button.
 
 14.	Within the Variable properties pane to the right, enter FormattedTemperature for the Variable name, and select Global for the Usage. Ensure that you also select both check boxes below Global.
 
-15.	Screenshot of setting a new variable formatting as a number.
+   ![screenshot of the prompt ](/Instructions/Media/3.1/varproper.png)
 
 16.	Add a Condition node so that you can check if the Formatted Temperature variable is greater than 75. If so, then a specific message displays. Otherwise, with all other conditions, you display a different message. Add two message nodes for both sides of the conditional statement.
 
@@ -126,19 +125,19 @@
 
 19.	For {Region} the temperature is {Global.Temperature} and that is getting warm! Consider cooling off with one of our cold brew coffees.
 
-20.	The braces { } are variables to display dynamic data. To enter variables into the node, use the {X} button on the Message node and then select a variable from the list, as shown in the following screenshot.
+>**Note**:The braces { } are variables to display dynamic data. To enter variables into the node, use the {X} button on the Message node and then select a variable from the list
 
-21.	For the false branch, add the following text within the message node: The temperature for {Region} is {Global.Temperature}. where the braces { } are variables to display dynamic data. To enter variables into the node, use the {X} button on the Message node and then select a variable from the list, as shown in the following screenshot.
+22.	For the false branch, add the following text within the message node: The temperature for {Region} is {Global.Temperature}. where the braces { } are variables to display dynamic data. To enter variables into the node, use the {X} button on the Message node and then select a variable from the list, as shown in the following screenshot.
 
-22.	Screenshot of conditions with messages for each.
+      ![screenshot of the prompt ](/Instructions/Media/3.1/endpoint.png)  
 
-23.	To end the conversation, select the Add node button below the condition. Select Topic management and then choose End conversation.
+24.	To end the conversation, select the Add node button below the condition. Select Topic management and then choose End conversation.
 
-24.	Screenshot of selecting the End of conversation node.
+25.	 ![screenshot of the prompt ](/Instructions/Media/3.1/endcon.png)
 
-25.	Save your topic using the button found in the top right corner of the screen and then use the testing panel to test the flow. Determine if the response is as expected, as shown in the following screenshot.
+26. ave your topic using the button found in the top right corner of the screen and then use the testing panel to test the flow. Determine if the response is as expected, as shown in the following screenshot.
 
-26.	Screenshot of the completed flow with test.
-
-27.	You successfully created a Power Automate flow and a new topic in Microsoft Copilot Studio that used the flow to provide real-time data from an external service to the user.
+![screenshot of the prompt ](/Instructions/Media/3.1/endotput.png)
+28.	
+29.	You successfully created a Power Automate flow and a new topic in Microsoft Copilot Studio that used the flow to provide real-time data from an external service to the user.
 

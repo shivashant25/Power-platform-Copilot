@@ -2,7 +2,7 @@
 
 ## Task–01: Create an approval flow.
 
-1. Sign in to https://make.powerautomate.com..
+1. Sign in to https://make.powerautomate.com.
 
 2. In the center of the Home page within Power Automate, in the text field on Start building your flow with Copilot, enter the following prompt:request approval when a Dataverse record 
   is created,Select the Submit button,Screenshot of Copilot in Power Automate prompt text field.

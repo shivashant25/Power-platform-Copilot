@@ -62,7 +62,7 @@
 
 7. Select the Status column name dropdown menu and then select View column where you can view the columns’ properties and the current status details and data.
 
-   ![screenshot of the prompt ](/Instructions/Media/01/copilot-table-new-rows-1.png)
+   ![screenshot of the prompt ](/Instructions/Media/copilot-table-new-rows-1-1.png)
 
 
     >Note : If your column choices aren't the same as the ones that are shown in the screenshot, enter the following command into the Copilot pane text box and then send it:
@@ -122,7 +122,7 @@
 
 11. On the app's main screen, select the Form control.
 
-   ![screenshot of the prompt ](/Instructions/Media/01/copilot-checkmark-1.png)
+   ![screenshot of the prompt ](/Instructions/Media/copilot-checkmark-1-1.png)
 
 12. On the Properties pane on the right, under the Fields property, select Edit fields.
 
@@ -148,7 +148,7 @@
 
 18. Though you could modify the form to automatically fill in the fields for you, for this lab, you'll complete this step manually to observe how the app works.
 
-   ![screenshot of the prompt ](/Instructions/Media/01/copilot-checkmark-1.png)
+   ![screenshot of the prompt ](/Instructions/Media/copilot-checkmark-1-1.png)
 
 19.  Fill in the fields with the following information:
 

@@ -85,7 +85,7 @@
 
 ## Task–03: Make edits using Copilot to edit your app.
 
-1. Next, you'll edit the table now that the app has been created.Within the Data pane, hover your mouse cursor over the table. To the right of the table, select the ellipsis (...),From the menu, select Edit data.
+1. Within the **Data** pane To the right of the table, select the **ellipsis** From the menu select **Edit data**.
 
    ![screenshot of the prompt ](../Media/copilot-edit-data.png)
 

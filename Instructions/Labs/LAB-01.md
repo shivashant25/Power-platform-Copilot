@@ -31,7 +31,7 @@
 ## Task–02: Create an app with Copilot.
 
 1. On the Home page in Power Apps `https://make.powerapps.com`
-2. Make sure you in the environment you previously created, in the center text field, enter the following prompt to search for an AI-generated table **build an app to manage real estate showings**, Select the Send button.
+2. Make sure you in the environment you previously created, in the center text field, enter the following prompt to search for an AI-generated table **build an app to manage real estate showings** , Select the Send button.
 
    ![screenshot of the prompt ](../Media/01/copilot-chat-prompt-1.png) 
 

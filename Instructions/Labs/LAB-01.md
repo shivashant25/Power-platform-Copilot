@@ -65,7 +65,7 @@
 
 8. the status choices should be Pending, Confirmed, Cancelled, and Completed,	Select the X in the upper-right corner of the pane to close it.
 
-9. Next, you'll add more data to your table and the existing columns. In the Copilot pane text box, enter and send the following text: **add 5 more rows of data**Five more rows of data are added for each existing column in the table.
+9. Next, you'll add more data to your table and the existing columns. In the Copilot pane text box, enter and send the following text: **add 5 more rows of data** Five more rows of data are added for each existing column in the table.
 
    ![screenshot of the prompt ](../Media/copilot-table-new-rows-1-1.png)
 

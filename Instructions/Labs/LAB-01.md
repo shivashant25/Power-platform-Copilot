@@ -12,7 +12,7 @@
 
 5.  For **Name**, enter **Copilot**
 
-6.  For **Type**, select **Trail**. 
+6.  For **Type**, select **Sandbox**. 
 
 7.  Change the toggle on **Add a Dataverse data store?** to **Yes**. Leave all other selections as default and select **Next**.
  

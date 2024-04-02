@@ -63,14 +63,11 @@
 
 7. Select the Status column name dropdown menu and then select View column where you can view the columns’ properties and the current status details and data.
 
-   ![screenshot of the prompt ](../Media/copilot-table-new-rows-1-1.png)
-
-
-    >Note : If your column choices aren't the same as the ones that are shown in the screenshot, enter the following command into the Copilot pane text box and then send it:
-
 8. the status choices should be Pending, Confirmed, Cancelled, and Completed,	Select the X in the upper-right corner of the pane to close it.
 
 9. Next, you'll add more data to your table and the existing columns. In the Copilot pane text box, enter and send the following text: **add 5 more rows of data**Five more rows of data are added for each existing column in the table.
+
+   ![screenshot of the prompt ](../Media/copilot-table-new-rows-1-1.png)
 
 10. In the text box, in the lower part of the Copilot pane to the right of the screen, enter the following text: **add a column to track Client Address**. Select the Send button
 (2), To create the app, select the Create app button in the lower-right corner of the screen.(3)

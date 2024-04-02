@@ -10,9 +10,9 @@
  
 4.  Select **Environments** from the site navigation and select **+ New** from the toolbar.
 
-5.  For **Name**, enter Copilot`
+5.  For **Name**, enter **Copilot**
 
-6.  For **Type**, select **Sandbox**. 
+6.  For **Type**, select **Trail**. 
 
 7.  Change the toggle on **Add a Dataverse data store?** to **Yes**. Leave all other selections as default and select **Next**.
  

@@ -30,15 +30,16 @@
 
 ## Task–02: Create an app with Copilot.
 
-1. On the Home page in Power Apps, Make sure you in the environment you previously created, in the center text field, enter the following prompt to search for an AI-generated table **build an app to manage real estate showings**, Select the Send button.
+1. On the Home page in Power Apps `https://make.powerapps.com`
+2. Make sure you in the environment you previously created, in the center text field, enter the following prompt to search for an AI-generated table **build an app to manage real estate showings**, Select the Send button.
 
    ![screenshot of the prompt ](../Media/01/copilot-chat-prompt-1.png) 
 
-2. After Copilot AI generates a table based on your prompt, look through the table to view the columns that are created for the start of your table.
+3. After Copilot AI generates a table based on your prompt, look through the table to view the columns that are created for the start of your table.
 
    ![screenshot of the prompt ](../Media/01/copilot-table-1.png)
 
-3. In the text box, in the lower part of the Copilot pane to the right of the screen, enter the following text: **add a column to track client full name**.Select the Send button.
+4. In the text box, in the lower part of the Copilot pane to the right of the screen, enter the following text: **add a column to track client full name**.Select the Send button.
 
    ![screenshot of the prompt ](../Media/01/copilot-table-new-column-1.png)
 

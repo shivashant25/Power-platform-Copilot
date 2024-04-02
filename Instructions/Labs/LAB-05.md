@@ -8,11 +8,11 @@
    
 3.Create a new **solution** named **Copilot**.
 
-![screenshot of the prompt ](/Instructions/Media/05/solution.png)
+![screenshot of the prompt ](../Media/05/solution.png)
     
 4.Select **Copilot** under solution and Select **New > Automation > Cloud flow > Automated.**
 
-![screenshot of the prompt ](/Instructions/Media/05/select-new-flow.png)
+![screenshot of the prompt ](../Media/05/select-new-flow.png)
 
 >**Note**: If an automated cloud flow doesn't meet your requirements, you can create any other type of flow, Power Automate opens.
 
@@ -22,7 +22,7 @@
    
 7.Select the **When a new email arrives (V3) trigger**.
 
-![screenshot of the prompt ](/Instructions/Media/05/search-trigger.png)
+![screenshot of the prompt ](../Media/05/search-trigger.png)
         
 8.Select **Create**.
     
@@ -30,17 +30,17 @@
 	
 10.Search for **Notification**, and then select the**Send me a mobile notification action**.
 
-![screenshot of the prompt ](/Instructions/Media/05/new-notification.png)
+![screenshot of the prompt ](../Media/05/new-notification.png)
 
 11.Add the Subject dynamic token to the Text field of the Send me a mobile notification card.
 
-![screenshot of the prompt ](/Instructions/Media/05/new-email-notification-flow.png)
+![screenshot of the prompt ](../Media/05/new-email-notification-flow.png)
 
 12.Select **Save** to save your flow.
     
 13.Select **Solutions** to see your flow in the solution.
 
-![screenshot of the prompt ](/Instructions/Media/05/new-flow-inside-solution.png)
+![screenshot of the prompt ](../Media/05/new-flow-inside-solution.png)
 
 ## Task-02: Add an owner to a cloud flow.
 
@@ -93,6 +93,6 @@ Sending a copy creates an independent instance of the flow for the recipient. Yo
    
 2.On the Send a copy panel, you can edit the name and description of the flow you want to share, and specify the users with whom you want to share it.
 
-![screenshot of the prompt ](/Instructions/Media/05/sendacopy.png)
+![screenshot of the prompt ](../Media/05/sendacopy.png)
  
 3.The recipient will receive an email stating that you have shared a cloud flow template with them, and they can then create their own instance of that flow.

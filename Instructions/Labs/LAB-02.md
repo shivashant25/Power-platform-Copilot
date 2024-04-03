@@ -36,11 +36,11 @@
 11. For the Assigned To parameter, enter the **email address** **<inject key="AzureAdUserEmail"></inject>** that you're using for this lab. This email address is the one that receives the approval request.
 
 12. For the Details parameter, enter the following text:`A new request for a real estate showing has been created. Please review the details below and approve or reject the request:
-   - Property:
-   - Client:
-   - Client Email:
-   - Date:
-   - Time:`
+    - Property:
+    - Client:
+    - Client Email:
+    - Date:
+    - Time:`
 
       ![screenshot of the prompt ](../Media/02/power-automate-copilot-details-parameter.png)
 
@@ -78,7 +78,7 @@
 
 21. Select is **equal to for the condition** and then enter **Approve for Value**.
 
-    ![screenshot of the prompt ](../Media/02/power-automate-copilot-approve-condition-1.png)
+    ![screenshot of the prompt ](../Media/02/power-automate-copilot-approve-condition)
 
 22. Collapse the Condition action and then select the **Update a row action** under the **True branch** of the condition.
 

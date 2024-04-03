@@ -92,7 +92,7 @@
 
    ![screenshot of the prompt ](../Media/02/power-automate-copilot-show-all.png)
 
-25. Select Confirmed from the **Status** dropdown menu.
+25. Select **Confirmed** from the **Status** dropdown menu.
 
    ![screenshot of the prompt ](../Media/02/power-automate-copilot-confirmed-status.png)
 
@@ -104,7 +104,7 @@
 
 28. Select Show all under **Advanced parameters**.
 
-29. Select **Canceled/inactive/scheduled** from the Status dropdown menu.When a showing is rejected, the Status field in the Real Estate Showings table is updated to Canceled.
+29. Select **Canceled** from the Status dropdown menu.When a showing is rejected, the Status field in the Real Estate Showings table is updated to Canceled.
 
 ## Task-03: Update the flow ,send an email and Run the App.
 

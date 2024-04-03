@@ -46,7 +46,7 @@
 
 1.Adding an owner to a cloud flow is the most common way to share a cloud flow. Any owner of a cloud flow can perform these actions:
    
-2.View the run history.
+2.View the **run history**.
    
 3.Manage the properties of the flow (for example, start or stop the flow, add owners, or update credentials for a connection).
    
@@ -61,10 +61,11 @@
 7.Select the flow that you want to share, select the vertical ellipsis (⋮), and then select Share.
     
 8.Enter the name, email address, or group name for the person or group that you want to add as an owner.
+
+   ![screenshot of the prompt ](../Media/adduser.png)
     
 9. The user or group you've selected becomes an owner of the flow.
 
-**Congratulations—you've created your team flow!**
 
 ## Task-03: Add a list as a co-owner
 
@@ -73,21 +74,17 @@ You can add SharePoint lists as co-owners of a cloud flow so that everyone who h
 1. Create and set up a SharePoint list.
    
 2. Use a list when the flow is connected to SharePoint, and use a group in all other cases.
-   
->**Note**: SharePoint users must have Edit permission or be a member of the Members or Owners group to run flows in SharePoint, Adding a list as a co-owner is not available in GCC High and DoD tenants, Remove an owner.When you remove an owner whose credentials are used to access Power Automate services, you should update the credentials for those connections so that the flow will continue to run properly.  go to Modify a connection.
 
 3.On the flow details page, in the Owners section, select **Edit**.
    
 4.Select **Delete**(the trash can) for the owner you want to remove.
    
 5.In the confirmation dialog box, select **Remove**.
+
+ ![screenshot of the prompt ](../Media/edit.png)
    
-**Congratulations—the user or group that you removed is no longer listed as an owner of the flow.**
 
 ## Task-04: **Send a copy of a cloud flow**
-
->**Note**: You can send a copy of a cloud flow to another user, who can then use the definition of the flow as a template. It provides a good way for you to share the general structure of a cloud flow without sharing any connections, while also allowing the recipient to modify their flow independently of yours, so they can make it fit their needs.
-Sending a copy creates an independent instance of the flow for the recipient. You can't revoke access to the flow after you share it.
 
 1.On the flow details page command bar, select **Send a copy**.
    

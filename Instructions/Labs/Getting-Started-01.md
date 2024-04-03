@@ -12,7 +12,7 @@ Once you're ready to dive in, your virtual machine and lab guide will be right a
  
 Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
 
-   ![](./media/get-2.png) 
+   ![screenshot of the prompt ](../Media/maingg.png)  
  
 ## Exploring Your Lab Resources
  
@@ -24,7 +24,7 @@ To get a better understanding of your lab resources and credentials, navigate to
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
  
-   ![screenshot of the prompt ](../Media/.png) 
+   ![screenshot of the prompt ](../Media/main2.png) 
  
 ## Managing Your Virtual Machine
  

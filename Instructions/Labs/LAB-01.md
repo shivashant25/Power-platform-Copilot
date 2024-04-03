@@ -10,13 +10,21 @@
  
 4.  Select **Environments** from the site navigation and select **+ New** from the toolbar.
 
+   ![screenshot of the prompt ](../Media/new11.png) 
+
 5.  For **Name**, enter **Copilot**
 
-6.  For **Type**, select **Sandbox**. 
+6.  For **Type**, select **Sandbox**.
 
 7.  Change the toggle on **Add a Dataverse data store?** to **Yes**. Leave all other selections as default and select **Next**.
+
+    ![screenshot of the prompt ](../Media/coco.png) 
  
 8.  On the **Add Dataverse** tab, under **Security group** use the **+ Select** button, and under **Open access**, select **None**.
+
+ ![screenshot of the prompt ](../Media/sel.png)
+
+  ![screenshot of the prompt ](../Media/non.png)
 
 9.  Select **Done** and select **Save**.
  

@@ -90,8 +90,10 @@ You can add SharePoint lists as co-owners of a cloud flow so that everyone who h
 
 1.On the flow details page command bar, select **Send a copy**.
    
-2.On the Send a copy panel, you can edit the name and description of the flow you want to share, and specify the users with whom you want to share it.
+2.On the Send a copy panel, you can edit the name and description of the flow you want to share, and specify the users with whom you want to share it.the recipient will receive an email stating that you have shared a cloud flow template with them, and they can then create their own instance of that flow.
 
  ![screenshot of the prompt ](../Media/05/sendacopy.png)
+
+ ## You have successfully completed the lab
  
-3.The recipient will receive an email stating that you have shared a cloud flow template with them, and they can then create their own instance of that flow.
+

@@ -38,7 +38,7 @@
 
 12.Select **Save** to save your flow.
     
-13.Select **Solutions** to see your flow in the solution.
+13.Go back and Select **Solutions** to see your flow in the solution.
 
 ![screenshot of the prompt ](../Media/05/new-flow-inside-solution.png)
 

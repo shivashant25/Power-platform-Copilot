@@ -6,7 +6,7 @@
 
 2. In the center of the Home page within Power Automate enter the following prompt: ` Request approval when a dataverse record with a approvals and condition below approvals true or false `, Select the **Submit** button .
 
-   ![screenshot of the prompt ](../Media/02/01.png)
+  ![screenshot of the prompt ](../Media/02/01.png)
 
 4. From the prompt, Copilot provides the outline for a suggested flow that you can review. To accept the flow, select **Next**
    
@@ -15,23 +15,23 @@
   
 6. Set up some parameters by selecting the **When a row is added,** modified or deleted trigger.A panel on the left side of the screen shows the trigger details, including an empty Table Name parameter that's required.
 
-   ![screenshot of the prompt ](../Media/02/02.png)
+  ![screenshot of the prompt ](../Media/02/02.png)
 
 7. From the Table Name dropdown menu, search for and select **Real Estate Showings**.
 
-   ![screenshot of the prompt ](../Media/02/power-automate-copilot-table-name.png)
+  ![screenshot of the prompt ](../Media/02/power-automate-copilot-table-name.png)
 
 8. Select the **Start and wait for an approval action**. Notice that the Approval Type parameter is missing.
 
-   ![screenshot of the prompt ](../Media/02/power-automate-copilot-approval-type.png)
+  ![screenshot of the prompt ](../Media/02/power-automate-copilot-approval-type.png)
 
 9. From the **Approval Type dropdown** menu, select **Approve/Reject - First to respond**.After you select the Approval Type, more parameters are now available.
 
-   ![screenshot of the prompt ](../Media/02/power-automate-copilot-approval-type-selected.png)
+  ![screenshot of the prompt ](../Media/02/power-automate-copilot-approval-type-selected.png)
 
 10. In the Copilot chat window, enter the following prompt:  Add "**New Request for Real Estate Showing**" as the Title parameter for the **Start and wait for an approval action** ,It takes a few seconds for Copilot to process the prompt. When processing is complete, the Title parameter is populated with the prompt text.
 
-   ![screenshot of the prompt ](../Media/02/power-automate-copilot-title-parameter.png)
+  ![screenshot of the prompt ](../Media/02/power-automate-copilot-title-parameter.png)
 
 11. For the Assigned To parameter, enter the **email address** **<inject key="AzureAdUserEmail"></inject>** that you're using for this lab. This email address is the one that receives the approval request.
 
@@ -188,7 +188,7 @@ Add the **Client Address, Client full name , Client email  Date, and Time fields
 
 19. Rename the flow to **Request Approval for Real Estate Showing** by selecting the request approval when a Dataverse record is created text in the upper-left corner of the screen.
 
-    ![screenshot of the prompt ](../Media/02/power-automate-copilot-rename-flow.png)
+   ![screenshot of the prompt ](../Media/02/power-automate-copilot-rename-flow.png)
 
 20.**Save** the flow by selecting the Save button in the upper-right corner of the screen.
 

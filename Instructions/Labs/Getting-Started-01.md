@@ -1,6 +1,6 @@
 # Getting Started with Your Power-Platform Copilot Workshop
  
-Welcome to your Power-Platform Copilot workshop! We've prepared a seamless environment for you to explore and learn about designing, implementing, managing, and maintaining Copilot for Sales in Outlook and Teams. Let's begin by making the most of this experience:
+Welcome to your Power-Platform Copilot workshop! We've prepared a seamless environment for you to explore and learn about designing, implementing, managing, and maintaining Copilot through PowerApps , Power Automate. Let's begin by making the most of this experience:
  
 ## Accessing Your Lab Environment
  

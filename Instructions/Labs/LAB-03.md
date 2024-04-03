@@ -36,7 +36,7 @@
 
 8.Within the top right corner of the screen, select the **Save** button to ensure that your work is saved.
 
-  ## Task-02: Create your Power Automate flow
+ ## Task-02: Create your Power Automate flow
 
 1.Select the **Add node button** below the question node to add a new node to the topic. Select **Call an action > Create a flow**. Power Automate opens in a new browser window 
 

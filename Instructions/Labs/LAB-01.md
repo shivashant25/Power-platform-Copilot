@@ -106,7 +106,7 @@
 
 6. On the app's main screen, select RecordsGallery1 to display Real Estate Showings and then select the edit button to put the gallery in edit mode.
 
-    ![screenshot of the prompt ](../Media/01/editing-1.png)
+   ![screenshot of the prompt ](../Media/01/editing-1.png)
 
 7. Select the Title and then set the Text value to the following formula: **ThisItem.'client Address'**
   
@@ -130,7 +130,7 @@
 
 14. From the Control type dropdown menu, change the type to View text.
 
-    ![screenshot of the prompt ](../Media/01/copilot-view-text-1.png)
+   ![screenshot of the prompt ](../Media/01/copilot-view-text-1.png)
 
  >**Note**:previously changed the ID field to Autonumber, you don’t want users entering their own number; Dataverse automatically enters the numbers for you.
 
@@ -150,21 +150,22 @@
 
 19.  Fill in the fields with the following information:
 
-Agent Name - < Your name >
+      Agent Name - < Your name >
 
-Client Full Name - < Your name >
+     Client Full Name - < Your name >
 
-Client Email - < Your email >
+     Client Email - < Your email >
 
-Date - < Any future date >
+     Date - < Any future date >
 
-Time - < Any future time >
+     Time - < Any future time >
 
-Status - Pending
+     Status - Pending
 
-Address - 210 Pine Road, Portland, OR 97204
+     Address - 210 Pine Road, Portland, OR 97204
 
->Note: This address is one of the addresses from the Microsoft Excel file in Module 1, and it's the same file that you uploaded and turned into the Real Estate Properties table.Though you'd usually have a lookup field to the Real Estate Properties table, this lab doesn't provide one to keep it simple.
+    >**Note**: This address is one of the addresses from the Microsoft Excel file in Module 1, and it's the same file that you uploaded and turned into the Real Estate Properties 
+   table.Though you'd usually have a lookup field to the Real Estate Properties table, this lab doesn't provide one to keep it simple.
 
 20. Select the check mark in the upper-right corner of the screen.
 

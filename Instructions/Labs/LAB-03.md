@@ -84,7 +84,7 @@
 
 3. Select **Enter or select a value** and then select the **Region** variable that you created in previous steps of this lab. 
 
-   ![screenshot of the prompt ](../Media/last-3s.png)
+    ![screenshot of the prompt ](../Media/last-3s.png)
 
 4. Add a Condition node so that you can check if the **Temperature** variable is greater than 75.
 

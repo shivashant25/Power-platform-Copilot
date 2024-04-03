@@ -1,4 +1,4 @@
-# Lab-04: Create a flow using the cloud flows designer with Copilot.
+# Lab-04: Create a flow using the cloud flows designer with Copilot (Read Only).
 
 ## Task-01: Create a Flow.
 

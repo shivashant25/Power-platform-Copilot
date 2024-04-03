@@ -34,11 +34,11 @@
 
    ![screenshot of the prompt ](../Media/3.1/phraese1.png)
 
-8.Within the top right corner of the screen, select the **Save** button to ensure that your work is saved.
+8. Within the top right corner of the screen, select the **Save** button to ensure that your work is saved.
 
  ## Task-02: Create your Power Automate flow
 
-1.Select the **Add node button** below the question node to add a new node to the topic. Select **Call an action > Create a flow**. Power Automate opens in a new browser window 
+1. Select the **Add node button** below the question node to add a new node to the topic. Select **Call an action > Create a flow**. Power Automate opens in a new browser window 
 
    ![screenshot of the prompt ](../Media/get-flow.png)
 
@@ -64,7 +64,7 @@
 
    ![screenshot of the prompt ](../Media/3.1/getcurrent.png)
 
-8.Select the **Return value(s) to Microsoft Copilot Studio** node at the end of the flow, then select **Add an output > Number** . Place your cursor in the **Enter a value to respond** text box. Select **Temperature** from dynamic data to add it to the response text box. Then, enter **Temperature** in the Title field.
+8. Select the **Return value(s) to Microsoft Copilot Studio** node at the end of the flow, then select **Add an output > Number** . Place your cursor in the **Enter a value to respond** text box. Select **Temperature** from dynamic data to add it to the response text box. Then, enter **Temperature** in the Title field.
 
    ![screenshot of the prompt ](../Media/03/temperature.png)
 
@@ -74,13 +74,13 @@
 
 ## Task-03 : Connect a Power Automate flow with Microsoft Copilot Studio.
 
-1.In this task, you connect a Power Automate flow with Microsoft Copilot Studio `https://web.powerva.microsoft.com`
+1. In this task, you connect a Power Automate flow with Microsoft Copilot Studio `https://web.powerva.microsoft.com`
 
 2. Open your existing topic in Microsoft Copilot Studio, entitled **Weather**, and return to the bottom of your flow, as shown in the following screenshot. Select **Call an action**. Your new Power Automate flow displays in the list. From the list, select **Get Temperature**.
 
    ![screenshot of the prompt ](../Media/get-tem-last.png)
 
->**Note**: If the flow does not show up, save the Check Weather topic and refresh the page.
+   >**Note**: If the flow does not show up, save the Check Weather topic and refresh the page.
 
 3. Select **Enter or select a value** and then select the **Region** variable that you created in previous steps of this lab. 
 
@@ -89,11 +89,14 @@
 4. Add a Condition node so that you can check if the **Temperature** variable is greater than 75.
 
 5. For the true branch, if the Temperature is greater than 75, add the following text within the 
-  Message node:
+  
+   ```
+   Message node:
 
-`For {Topic.Region} the temperature is {Topic.Temperature} and that is getting warm! Consider cooling off with one of our cold brew coffees.`
+   For {Topic.Region} the temperature is {Topic.Temperature} and that is getting warm! Consider cooling off with one of our cold brew coffees.
+   ```
 
->**Note**: The braces { } are variables to display dynamic data. To enter variables into the node, use the {X} button on the Message node and then select a variable from the list.
+      >**Note**: The braces { } are variables to display dynamic data. To enter variables into the node, use the {X} button on the Message node and then select a variable from the list.
 
 6. For the All other conditions branch, add the following text within the message node: The temperature for **{Region}** is `{Topic.Temperature}`. Where the braces { } are variables to display dynamic data.
    

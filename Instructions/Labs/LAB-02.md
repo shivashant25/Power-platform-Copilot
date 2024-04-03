@@ -125,13 +125,13 @@
 6. For the Subject field, enter the following text into the Copilot chat window and then press the Enter key on your keyboard:Add `Your request for a real estate showing has been approved` as the Subject parameter for the Send an email action
 
 
-  ![screenshot of the prompt ](../Media/02/power-automate-copilot-subject-parameter.png)
+   ![screenshot of the prompt ](../Media/02/power-automate-copilot-subject-parameter.png)
 
 7. For the Body field, enter the following text into the Copilot chat window and then press the Enter key on your keyboard:Add "Good day - Your request for a real estate showing has been approved. Please see below for details." as the Body parameter for the Send an email action
 
 The Body field should populate with the prompt text.
 
-  ![screenshot of the prompt ](../Media/02/power-automate-copilot-body-parameter.png)
+   ![screenshot of the prompt ](../Media/02/power-automate-copilot-body-parameter.png)
 
 8. Enter the following content after the Body text:
 
@@ -147,11 +147,11 @@ The Body field should populate with the prompt text.
 
 Add the **Client Address, Client full name , Client email  Date, and Time fields** from the Dynamic content pane to the appropriate lines in the Body text.
 
-  ![screenshot of the prompt ](../Media/02/power-automate-copilot-body-parameter-added.png)
+   ![screenshot of the prompt ](../Media/02/power-automate-copilot-body-parameter-added.png)
 
 9.Add the **Response summary field** from the Dynamic content pane to the end of the Body text.
 
-  ![screenshot of the prompt ](../Media/02/power-automate-copilot-response-comment.png)
+   ![screenshot of the prompt ](../Media/02/power-automate-copilot-response-comment.png)
 
 10. Collapse the **Send an email action**.
 
@@ -184,15 +184,15 @@ Add the **Client Address, Client full name , Client email  Date, and Time fields
 
 18. Add the **Response summary field** from the Dynamic content pane to the end of the Body text, Collapse the Send an email action.
 
-   ![screenshot of the prompt ](../Media/02/power-automate-copilot-response-comment-rejected.png)
+    ![screenshot of the prompt ](../Media/02/power-automate-copilot-response-comment-rejected.png)
 
 19. Rename the flow to **Request Approval for Real Estate Showing** by selecting the request approval when a Dataverse record is created text in the upper-left corner of the screen.
 
-   ![screenshot of the prompt ](../Media/02/power-automate-copilot-rename-flow.png)
+    ![screenshot of the prompt ](../Media/02/power-automate-copilot-rename-flow.png)
 
 20.**Save** the flow by selecting the Save button in the upper-right corner of the screen.
 
-   ![screenshot of the prompt ](../Media/02/power-automate-copilot-save.png)
+   ![](../Media/02/power-automate-copilot-save.png)
 
 21.Test the flow by selecting the Test button in the upper-right corner of the screen. Select**Manually** and then select **Test**.
 
@@ -233,5 +233,5 @@ The approval should resemble the following image.
 
 28.Check the flow and notice that the flow is now marked as **Succeeded** in the **run history**.
 
-  ![screenshot of the prompt ](../Media/02/power-automate-copilot-flow-succeeded-1.png)
+   ![screenshot of the prompt ](../Media/02/power-automate-copilot-flow-succeeded-1.png)
 

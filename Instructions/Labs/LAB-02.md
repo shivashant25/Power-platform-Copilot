@@ -66,7 +66,7 @@
 
 17. With the Details parameter completed, you can collapse the **Start and wait for an approval action** by selecting the double arrow icon.
 
-   ![screenshot of the prompt ](../Media/02/copilot-start-wait-approval-collapsed.png)
+   ![screenshot of the prompt ](../Media/copilot-start-wait-approval-collapsed-1.png)
 
 18. Select the **Condition action**.
 
@@ -78,7 +78,7 @@
 
 20. Select is **equal to for the condition** and then enter **Approve for Value**.
 
-   ![screenshot of the prompt ](../Media/02/power-automate-copilot-approve-condition.png)
+   ![screenshot of the prompt ](../Media/02/power-automate-copilot-approve-condition-1.png)
 
 21. Collapse the Condition action and then select the **Update a row action** under the **True branch** of the condition.
 

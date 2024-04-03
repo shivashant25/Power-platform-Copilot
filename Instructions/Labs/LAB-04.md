@@ -6,7 +6,7 @@
    
 2.	Start to describe your automation scenario.
 
-  ![screenshot of the prompt ](../Media/04/copilot-home-example.png)
+   ![screenshot of the prompt ](../Media/04/copilot-home-example.png)
    
 3.	To accept the flow that Copilot created for you, select **Next**.
    

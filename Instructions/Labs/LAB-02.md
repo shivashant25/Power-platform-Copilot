@@ -96,7 +96,7 @@
 
     ![screenshot of the prompt ](../Media/02/power-automate-copilot-confirmed-status.png)
 
- >**Note:** When a showing is approved, the Status field in the Real Estate Showings table is updated to Confirmed.
+      >**Note:** When a showing is approved, the Status field in the Real Estate Showings table is updated to Confirmed.
 
 27. Collapse the **Update a row action** and then select the **Update a row action** under the **False branch** of the condition.
 

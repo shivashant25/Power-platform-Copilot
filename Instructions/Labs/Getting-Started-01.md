@@ -24,10 +24,10 @@ To get a better understanding of your lab resources and credentials, navigate to
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
  
-   ![screenshot of the prompt ](../Media/vmrunning.png) 
+   ![screenshot of the prompt ](../Media/.png) 
  
 ## Managing Your Virtual Machine
  
 Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
  
-   ![](./media/3.png)
+   ![screenshot of the prompt ](../Media/vmrunning.png) 

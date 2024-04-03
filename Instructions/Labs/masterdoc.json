@@ -1,0 +1,35 @@
+[
+  {
+    "Name": "Power-platform-Copilot",
+    "Language": "English",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/reema0814/Power-platform-Copilot/main/Instructions/Labs/Getting-Started-01.md",
+        "Order": 1
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/reema0814/Power-platform-Copilot/main/Instructions/Labs/LAB-01.md",
+        "Order": 2
+      },
+       {
+        "RawFilePath": "https://raw.githubusercontent.com/reema0814/Power-platform-Copilot/main/Instructions/Labs/LAB-02.md",
+        "Order": 3
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/reema0814/Power-platform-Copilot/main/Instructions/Labs/LAB-03.md",
+        "Order": 4
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/reema0814/Power-platform-Copilot/main/Instructions/Labs/LAB-04.md",
+        "Order": 5
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/reema0814/Power-platform-Copilot/main/Instructions/Labs/LAB-05.md",
+        "Order": 6
+       }
+    ]
+  }
+]
+
+
+    

@@ -44,67 +44,67 @@
 
    ![screenshot of the prompt ](../Media/02/power-automate-copilot-details-parameter.png)
 
-12. Place your curser next to Property: in the Details parameter and then select the lightning icon to open the Dynamic content pane.
+13. Place your curser next to Property: in the Details parameter and then select the lightning icon to open the Dynamic content pane.
 
    ![screenshot of the prompt ](../Media/02/power-automate-copilot-dynamic-content-icon.png)
 
-13. In the Dynamic content pane, select See More to expand the list of available dynamic content.
+14. In the Dynamic content pane, select See More to expand the list of available dynamic content.
 
    ![screenshot of the prompt ](../Media/02/power-automate-copilot-see-more.png)
 
-14. Scroll down until you find the Address field and then select it.
+15. Scroll down until you find the Address field and then select it.
 
    ![screenshot of the prompt ](../Media/02/power-automate-copilot-property-field.png)
 
-15. The  **Client Address** dynamic content field is now added to the Details parameter.
+16. The  **Client Address** dynamic content field is now added to the Details parameter.
 
    ![screenshot of the prompt ](../Media/02/power-automate-copilot-property-field-added.png)
 
-16. Complete the same steps for the **Client Address,Client Full Name, Client Email , Date, and Time fields**, When you're done with the rest of the fields, the values should resemble the following image.
+17. Complete the same steps for the **Client Address,Client Full Name, Client Email , Date, and Time fields**, When you're done with the rest of the fields, the values should resemble the following image.
 
    ![screenshot of the prompt ](../Media/02/power-automate-copilot-details-parameter-added.png)
 
-17. With the Details parameter completed, you can collapse the **Start and wait for an approval action** by selecting the double arrow icon.
+18. With the Details parameter completed, you can collapse the **Start and wait for an approval action** by selecting the double arrow icon.
 
    ![screenshot of the prompt ](../Media/copilot-start-wait-approval-collapsed-1.png)
 
-18. Select the **Condition action**.
+19. Select the **Condition action**.
 
    ![screenshot of the prompt ](../Media/02/power-automate-copilot-condition.png)
 
-19. Select the Choose a value box and then select **Outcome from the Dynamic content** pane.
+20. Select the Choose a value box and then select **Outcome from the Dynamic content** pane.
 
    ![screenshot of the prompt ](../Media/02/power-automate-copilot-outcome.png)
 
-20. Select is **equal to for the condition** and then enter **Approve for Value**.
+21. Select is **equal to for the condition** and then enter **Approve for Value**.
 
    ![screenshot of the prompt ](../Media/02/power-automate-copilot-approve-condition-1.png)
 
-21. Collapse the Condition action and then select the **Update a row action** under the **True branch** of the condition.
+22. Collapse the Condition action and then select the **Update a row action** under the **True branch** of the condition.
 
-22. From the Table Name dropdown menu, search for and select **Real Estate Showings**.
+23. From the Table Name dropdown menu, search for and select **Real Estate Showings**.
 
-23. Select the **Row ID field** and then select the **Real Estate Showings** unique identifier field from the Dynamic content pane.
+24. Select the **Row ID field** and then select the **Real Estate Showings** unique identifier field from the Dynamic content pane.
 
    ![screenshot of the prompt ](../Media/02/power-automate-copilot-row-id.png)
 
-24. Select Show all under **Advanced parameters**.
+25. Select Show all under **Advanced parameters**.
 
    ![screenshot of the prompt ](../Media/02/power-automate-copilot-show-all.png)
 
-25. Select **Confirmed** from the **Status** dropdown menu.
+26. Select **Confirmed** from the **Status** dropdown menu.
 
    ![screenshot of the prompt ](../Media/02/power-automate-copilot-confirmed-status.png)
 
  >**Note:** When a showing is approved, the Status field in the Real Estate Showings table is updated to Confirmed.
 
-26. Collapse the **Update a row action** and then select the **Update a row action** under the **False branch** of the condition.
+27. Collapse the **Update a row action** and then select the **Update a row action** under the **False branch** of the condition.
 
-27. From the Table Name dropdown menu, search for and select **Real Estate Showings**,Select the Row ID field and then select the **Real Estate Showings unique identifier field** from the Dynamic content pane.
+28. From the Table Name dropdown menu, search for and select **Real Estate Showings**,Select the Row ID field and then select the **Real Estate Showings unique identifier field** from the Dynamic content pane.
 
-28. Select Show all under **Advanced parameters**.
+29. Select Show all under **Advanced parameters**.
 
-29. Select **Canceled** from the Status dropdown menu.When a showing is rejected, the Status field in the Real Estate Showings table is updated to Canceled.
+30. Select **Canceled** from the Status dropdown menu.When a showing is rejected, the Status field in the Real Estate Showings table is updated to Canceled.
 
 ## Task-03: Update the flow ,send an email and Run the App.
 

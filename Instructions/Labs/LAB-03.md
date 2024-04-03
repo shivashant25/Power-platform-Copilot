@@ -1,17 +1,26 @@
 ## Lab-03: Build a basic Power Automate flow in Microsoft Copilot Studio.
 
-# Task-01: Create a new topic.
+### Task-01: Create a new topic.
 
-1.Login to **https://copilotstudio.microsoft.com/**
+1.Login to **https://copilotstudio.microsoft.com/** and get started login with the **<inject key="AzureAdUserEmail"></inject>** and choose the **Region** and enter the **dummy phone number**
 
-  ![screenshot of the prompt ](../Media/03/login-1.png)
+  ![screenshot of the prompt ](../Media/getstarted.png)
 
-2.Choose the **Copilot** Environment then Create a new copilot named **User 1 Contoso Customer** 
+2.Choose the **Copilot** Environment .
+
+  ![screenshot of the prompt ](../Media/copilot-env.png)
+
    
-  ![screenshot of the prompt ](../Media/03/login-2.png)
+3. Create a new copilot named **User 1 Contoso Customer** 
+
+   ![screenshot of the prompt ](../Media/newcopilot.png)
+
+   ![screenshot of the prompt ](../Media/03/login-2.png)
 	
 3. Select the **New Topic** drop down at the top of the page and **choose the From Blank** 
   option. Enter **Check Weather** as the name of your topic.
+
+  ![screenshot of the prompt ](../Media/fromblk.png)
 
 5.Click on edit Phrases then enter simple trigger phrases, such as **What is the weather** and **What is the temperature today**, until you have at least five trigger phrases. Select the **Edit** button within the node to open a pane to the right of the screen where you can add the trigger phrases.
 
@@ -31,17 +40,17 @@
 
 1.Select the **Add node button** below the question node to add a new node to the topic. Select **Call an action > Create a flow**. Power Automate opens in a new browser window 
 
-   ![screenshot of the prompt ](../Media/3.1/get-temp.png)
+   ![screenshot of the prompt ](../Media/get-flow.png)
 
 3. Click on In the first node **When Power Virtual Agents Calls a flow** new flow window that opens, select the **Add an input** within the first scaffolded action. Then, select **Text**.
 
-  ![screenshot of the prompt ](../Media/3.1/powerflow.png)
+  ![screenshot of the prompt ](../Media/main.png)
        
-   ![screenshot of the prompt ](../Media/3.1/txt.png)
+   ![screenshot of the prompt ](../Media/plus-plus.png)
 
 4. Within the first column, enter `Region` (leaving the second column empty).
 
-   ![screenshot of the prompt ](../Media/3.1/region.png)
+   ![screenshot of the prompt ](../Media/plus.png)
 
 6. Then, select the **Insert new step** button to **add a new action**.
 
@@ -63,21 +72,19 @@
 
 13. Select **Save** on the flow in Power Automate to ensure that it saves. Wait a moment until the green banner appears, indicating success then Select **Publish** .
 
-![screenshot of the prompt ](../Media/03/save.png)
-
 ## Task-03 : Connect a Power Automate flow with Microsoft Copilot Studio.
 
 1.In this task, you connect a Power Automate flow with Microsoft Copilot Studio `https://web.powerva.microsoft.com`
 
 2. Open your existing topic in Microsoft Copilot Studio, entitled **Weather**, and return to the bottom of your flow, as shown in the following screenshot. Select **Call an action**. Your new Power Automate flow displays in the list. From the list, select **Get Temperature**.
 
-![screenshot of the prompt ](../Media/03/get-temperature.png)
+![screenshot of the prompt ](../Media/get-tem-last.png)
 
 >**Note**: If the flow does not show up, save the Check Weather topic and refresh the page.
 
 4. Select **Enter or select a value** and then select the **Region** variable that you created in previous steps of this lab. 
 
-![screenshot of the prompt ](../Media/3.1/shit.png)
+![screenshot of the prompt ](../Media/last-3s.png)
 
 5. Add a Condition node so that you can check if the **Temperature** variable is greater than 75.
 
@@ -90,15 +97,18 @@
 
 7. For the All other conditions branch, add the following text within the message node: The temperature for **{Region}** is `{Topic.Temperature}`. Where the braces { } are variables to display dynamic data.
    
-![screenshot of the prompt ](../Media/3.1/enter-for.png)
+![screenshot of the prompt ](../Media/last-ss.png)
+
+![screenshot of the prompt ](../Media/last.png)
 
 15. To end the conversation, select the **Add node** button below the condition. Select **Topic management** and then choose **End conversation**.
 
-      ![screenshot of the prompt ](../Media/3.1/endcon.png)
 
-16. **Save** your topic using the button found in the top right corner of the screen and then Click on **test your copilot** and test it out 
+    ![screenshot of the prompt ](../Media/3.1/endcon.png)
+
+17. **Save** your topic using the button found in the top right corner of the screen and then Click on **test your copilot** and test it out 
 
     ![screenshot of the prompt ](../Media/3.1/endotput.png)
 	
-17. You successfully created a Power Automate flow and a new topic in Microsoft Copilot Studio that used the flow to provide real-time data from an external service to the user.
+18. You successfully created a Power Automate flow and a new topic in Microsoft Copilot Studio that used the flow to provide real-time data from an external service to the user.
 

@@ -172,7 +172,7 @@
 
      Address - 210 Pine Road, Portland, OR 97204
 
-    >**Note**: This address is one of the addresses from the Microsoft Excel file in Module 1, and it's the same file that you uploaded and turned into the Real Estate Properties 
+> **Note** : This address is one of the addresses from the Microsoft Excel file in Module 1, and it's the same file that you uploaded and turned into the Real Estate Properties 
    table.Though you'd usually have a lookup field to the Real Estate Properties table, this lab doesn't provide one to keep it simple.
 
 20. Select the check mark in the upper-right corner of the screen.

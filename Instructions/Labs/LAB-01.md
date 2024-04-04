@@ -56,7 +56,7 @@
 
 4. In the text box, in the lower part of the Copilot pane to the right of the screen, enter the following text: **add a column to track client email**. Select the Send button.
 
-    ![screenshot of the prompt ](../Media/01/copilot-table-new-column-email-1.png)
+    ![screenshot of the prompt ](../Media/copilot-table-new-column-email-1-2.png)
 
     >**Note**:
     > - The data that's generated in your table might vary from the data that's shown in the table in the screenshots for this lab.

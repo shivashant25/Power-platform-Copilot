@@ -35,12 +35,12 @@
       
    >**Note** : Your flow opens with the Copilot pane on the side. You can now edit your flow by using the cloud flows designer with copilot capabilities. Try typing the following prompts.
 
-      a.	Delete action X.
+   - a.	Delete action X.
 
-      b.	I want to send an email at the end of the flow with subject equal to the SharePoint file name.
+   - b.	I want to send an email at the end of the flow with subject equal to the SharePoint file name.
 
-      c.	Instead of email, I want to post message on Teams channel.
+   - c .	Instead of email, I want to post message on Teams channel.
 
-      d.	Check if each of the Sharepoint items being returned has a title that equals 'USB', and if so, send an email.
+   - d.	Check if each of the Sharepoint items being returned has a title that equals 'USB', and if so, send an email.
 
 

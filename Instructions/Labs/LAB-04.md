@@ -32,7 +32,8 @@
 
     ![screenshot of the prompt ](../Media/04/copilot-edit.png)
  
-      >**Note** : Your flow opens with the Copilot pane on the side. You can now edit your flow by using the cloud flows designer with copilot capabilities. Try typing the following prompts.
+      
+   >**Note** : Your flow opens with the Copilot pane on the side. You can now edit your flow by using the cloud flows designer with copilot capabilities. Try typing the following prompts.
 
       a.	Delete action X.
 

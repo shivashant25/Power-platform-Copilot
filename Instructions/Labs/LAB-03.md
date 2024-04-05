@@ -89,12 +89,8 @@
 4. Add a Condition node so that you can check if the **Temperature** variable is greater than 75.
 
 5. For the true branch, if the Temperature is greater than 75, add the following text within the 
-  
-   ```
    Message node:
-
-   For {Topic.Region} the temperature is {Topic.Temperature} and that is getting warm! Consider cooling off with one of our cold brew coffees.
-   ```
+   `For {Topic.Region} the temperature is {Topic.Temperature} and that is getting warm! Consider cooling off with one of our cold brew coffees.`
 
       >**Note**: The braces { } are variables to display dynamic data. To enter variables into the node, use the {X} button on the Message node and then select a variable from the list.
 

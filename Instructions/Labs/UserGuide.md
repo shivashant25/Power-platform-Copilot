@@ -72,7 +72,7 @@ The provided sandbox environment is meticulously equipped with comprehensive pri
 
 - Understand the architecture and features of Power Platform Copilot
 
-- Providing real-time intelligent assistance, enabling users to enhance their creativity, productivity, and skills for the following Microsoft Office 365 applications:
+- Providing real-time intelligent assistance, enabling users to enhance their creativity, productivity, and skills for the following applications:
 
     - Microsoft EntraID 
     - Power Apps Copilot 

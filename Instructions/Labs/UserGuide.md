@@ -29,7 +29,7 @@ IP addresses are deployed as part of the automation.
 
 ## Azure Credits
 
-You have been given Azure credit limit of $190 USD which includes the running cost of pre-deployed Azure resources, license cost, and other resources deployed while running through the sandbox.
+You have been given Azure credit limit of $150 USD which includes the running cost of pre-deployed Azure resources, license cost, and other resources deployed while running through the sandbox.
 
 ## Alerts
 
@@ -90,7 +90,7 @@ Here are few common issues and fix which you might encounter while performing th
 
 - VM Remote connection issue: RDP: [Known Functionality Issues | CloudLabs Documentation](https://docs.cloudlabs.ai/Learner/Troubleshooting/RDP/)
 
-- o	Copy Paste Issue: [Copy Paste | CloudLabs Documentation](https://docs.cloudlabs.ai/Learner/Troubleshooting/CopyPaste/)
+- Copy Paste Issue: [Copy Paste | CloudLabs Documentation](https://docs.cloudlabs.ai/Learner/Troubleshooting/CopyPaste/)
 
 ## Contact Support
 

@@ -8,7 +8,7 @@ Whether experienced professionals or novice users, Power Platform Copilot facili
 
 ## Sandbox Scenario
 
-Recognizing the need for a transformative solution, **Contoso Ltd**. decides to integrate Power Platform Copilot into their infrastructure. This decision stems from their desire to optimize workflows, create a more conducive work environment, boost productivity, reduce operational costs, and enhance service quality.
+At Contoso Ltd., the project development team is tasked with creating a custom solution for a client's inventory management system. The team consists of developers, business analysts, and project managers who collaborate within the Microsoft 365 environment using tools like Teams, SharePoint, and Power Apps.
 
 ## About the Sandbox
 

@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "Power-platform-Copilot",
+    "Language": "English",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudlabsAI-Git/Power-platform-Copilot/main/Instructions/Labs/Getting-Started-01.md",
+        "Order": 1
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudlabsAI-Git/Power-platform-Copilot/main/Instructions/Labs/UserGuide.md",
+        "Order": 2
+      }
+    ]
+  }
+]
+
+
+    

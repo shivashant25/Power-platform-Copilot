@@ -68,7 +68,7 @@ When 100% of Azure credits are spent, the sandbox environment will get automatic
 
 ## Sandbox Use Cases
 
-The provided sandbox environment is meticulously equipped with comprehensive privileges, resources, pre-configured accounts, and requisite licenses, all tailored to facilitate and enhance your exploration of the **Power Platform Copilot**. This carefully curated environment is designed to empower users like yourself to delve into the intricacies of the **Microsoft Copilot for Microsoft 365** with optimal support and efficiency. Here are few of the concepts that can be explored utilizing this sandbox environment.
+The provided sandbox environment is meticulously equipped with comprehensive privileges, resources, pre-configured accounts, and requisite licenses, all tailored to facilitate and enhance your exploration of the **Power Platform Copilot**. This carefully curated environment is designed to empower users like yourself to delve into the intricacies of the **Power Platform Copilot** with optimal support and efficiency. Here are few of the concepts that can be explored utilizing this sandbox environment.
 
 - Understand the architecture and features of Power Platform Copilot
 

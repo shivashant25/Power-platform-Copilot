@@ -1,6 +1,12 @@
 # Lab-02: Create an approval flow with Copilot in Power Automate.
 
-## Task–01: Create an approval flow.
+## Lab Scenario
+
+In this exercise, you will create an approval flow using Power Automate. Your objective is to automate a process where a request is submitted and requires approval before proceeding. Start by accessing Power Automate and selecting the option to create a new flow. Use the built-in templates or create a flow from scratch, setting up triggers and actions to handle the approval process. Configure the flow to send approval requests to designated users, capture their responses, and perform actions based on their decisions. This exercise will demonstrate how to automate and streamline approval workflows efficiently.
+
+## Task – 01: Create an approval flow.
+
+In this task, you'll create an approval flow using Power Automate to automate the process of submitting requests for approval. You'll configure the flow to handle approval requests, capture responses, and execute actions based on those responses.
 
 1. Sign in to https://make.powerautomate.com.
 
@@ -11,7 +17,6 @@
 4. From the prompt, Copilot provides the outline for a suggested flow that you can review. To accept the flow, select **Next**
    
 5. Review the connected apps and services. If a connection hasn't been made, edit or fix it and then select **Create flow**.The Edit with Copilot designer opens with your flow along with a Copilot chat window on the right.
-
   
 6. Set up some parameters by selecting the **When a row is added,** modified or deleted trigger.A panel on the left side of the screen shows the trigger details, including an empty Table Name parameter that's required.
 
@@ -36,77 +41,81 @@
 11. For the Assigned To parameter, enter the **email address** **<inject key="AzureAdUserEmail"></inject>** that you're using for this lab. This email address is the one that receives the approval request.
 
 12. For the Details parameter, enter the following text:`A new request for a real estate showing has been created. Please review the details below and approve or reject the request:
+    ```
     - Property:
     - Client:
     - Client Email:
     - Date:
-    - Time:`
+    - Time:
 
+    ```
       ![screenshot of the prompt ](../Media/02/power-automate-copilot-details-parameter.png)
 
-13. Place your curser next to Property: in the Details parameter and then select the lightning icon to open the Dynamic content pane.
+14. Place your curser next to Property: in the Details parameter and then select the lightning icon to open the Dynamic content pane.
 
     ![screenshot of the prompt ](../Media/02/power-automate-copilot-dynamic-content-icon.png)
 
-14. In the Dynamic content pane, select See More to expand the list of available dynamic content.
+15. In the Dynamic content pane, select See More to expand the list of available dynamic content.
 
     ![screenshot of the prompt ](../Media/02/power-automate-copilot-see-more.png)
 
-15. Scroll down until you find the Address field and then select it.
+16. Scroll down until you find the Address field and then select it.
 
     ![screenshot of the prompt ](../Media/02/power-automate-copilot-property-field.png)
 
-16. The  **Client Address** dynamic content field is now added to the Details parameter.
+17. The  **Client Address** dynamic content field is now added to the Details parameter.
 
     ![screenshot of the prompt ](../Media/02/power-automate-copilot-property-field-added.png)
 
-17. Complete the same steps for the **Client Address,Client Full Name, Client Email , Date, and Time fields**, When you're done with the rest of the fields, the values should resemble the following image.
+18. Complete the same steps for the **Client Address,Client Full Name, Client Email , Date, and Time fields**, When you're done with the rest of the fields, the values should resemble the following image.
 
     ![screenshot of the prompt ](../Media/02/power-automate-copilot-details-parameter-added.png)
 
-18. With the Details parameter completed, you can collapse the **Start and wait for an approval action** by selecting the double arrow icon.
+19. With the Details parameter completed, you can collapse the **Start and wait for an approval action** by selecting the double arrow icon.
 
     ![screenshot of the prompt ](../Media/copilot-start-wait-approval-collapsed-1.png)
 
-19. Select the **Condition action**.
+20. Select the **Condition action**.
 
     ![screenshot of the prompt ](../Media/02/power-automate-copilot-condition.png)
 
-20. Select the Choose a value box and then select **Outcome from the Dynamic content** pane.
+21. Select the Choose a value box and then select **Outcome from the Dynamic content** pane.
 
     ![screenshot of the prompt ](../Media/02/power-automate-copilot-outcome.png)
 
-21. Select is **equal to for the condition** and then enter **Approve for Value**.
+22. Select is **equal to for the condition** and then enter **Approve for Value**.
 
     ![screenshot of the prompt ](../Media/02/power-automate-copilot-approve-condition)
 
-22. Collapse the Condition action and then select the **Update a row action** under the **True branch** of the condition.
+23. Collapse the Condition action and then select the **Update a row action** under the **True branch** of the condition.
 
-23. From the Table Name dropdown menu, search for and select **Real Estate Showings**.
+24. From the Table Name dropdown menu, search for and select **Real Estate Showings**.
 
-24. Select the **Row ID field** and then select the **Real Estate Showings** unique identifier field from the Dynamic content pane.
+25. Select the **Row ID field** and then select the **Real Estate Showings** unique identifier field from the Dynamic content pane.
 
     ![screenshot of the prompt ](../Media/02/power-automate-copilot-row-id.png)
 
-25. Select Show all under **Advanced parameters**.
+26. Select Show all under **Advanced parameters**.
 
     ![screenshot of the prompt ](../Media/02/power-automate-copilot-show-all.png)
 
-26. Select **Confirmed** from the **Status** dropdown menu.
+27. Select **Confirmed** from the **Status** dropdown menu.
 
     ![screenshot of the prompt ](../Media/02/power-automate-copilot-confirmed-status.png)
 
       >**Note:** When a showing is approved, the Status field in the Real Estate Showings table is updated to Confirmed.
 
-27. Collapse the **Update a row action** and then select the **Update a row action** under the **False branch** of the condition.
+28. Collapse the **Update a row action** and then select the **Update a row action** under the **False branch** of the condition.
 
-28. From the Table Name dropdown menu, search for and select **Real Estate Showings**,Select the Row ID field and then select the **Real Estate Showings unique identifier field** from the Dynamic content pane.
+29. From the Table Name dropdown menu, search for and select **Real Estate Showings**,Select the Row ID field and then select the **Real Estate Showings unique identifier field** from the Dynamic content pane.
 
-29. Select Show all under **Advanced parameters**.
+30. Select Show all under **Advanced parameters**.
 
-30. Select **Canceled** from the Status dropdown menu.When a showing is rejected, the Status field in the Real Estate Showings table is updated to Canceled.
+31. Select **Canceled** from the Status dropdown menu.When a showing is rejected, the Status field in the Real Estate Showings table is updated to Canceled.
 
-## Task-03: Update the flow ,send an email and Run the App.
+## Task-02: Update the flow ,send an email and Run the App.
+
+In this task, you'll update the approval flow to refine its settings and configure it to send an email notification. After making these updates, you'll run the app to test and ensure the flow and email notifications work correctly.
 
 1. Collapse the **Update a row action**.
 

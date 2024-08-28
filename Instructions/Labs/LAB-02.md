@@ -84,7 +84,6 @@ In this task, you'll create an approval flow using Power Automate to automate th
 
 20. Select the **Condition action**.
 
-    ![screenshot of the prompt ](../Media/02/power-automate-copilot-condition.png)
 
 21. Select the Choose a value box and then select **Outcome from the Dynamic content** pane.
 

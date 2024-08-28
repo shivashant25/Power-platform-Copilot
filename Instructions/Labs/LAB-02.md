@@ -4,6 +4,13 @@
 
 In this exercise, you will create an approval flow using Power Automate. Your objective is to automate a process where a request is submitted and requires approval before proceeding. Start by accessing Power Automate and selecting the option to create a new flow. Use the built-in templates or create a flow from scratch, setting up triggers and actions to handle the approval process. Configure the flow to send approval requests to designated users, capture their responses, and perform actions based on their decisions. This exercise will demonstrate how to automate and streamline approval workflows efficiently.
 
+## Lab objectives
+
+In this lab, you will complete the following tasks:
+
+- Task 1 : Create an approval flow.
+- Task 2: Update the flow ,send an email and Run the App.
+  
 ## Task – 01: Create an approval flow.
 
 In this task, you'll create an approval flow using Power Automate to automate the process of submitting requests for approval. You'll configure the flow to handle approval requests, capture responses, and execute actions based on those responses.

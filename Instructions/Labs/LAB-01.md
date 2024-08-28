@@ -2,39 +2,51 @@
 
 ### Task 1 – Create environment
  
-1. Open a new browser tab and navigate to the Power Platform admin center `https://aka.ms/ppac` 
+1. In the new browser tab, navigate to the **Power Platform admin center** by visiting `https://aka.ms/ppac`
 
-2. Log in with your Microsoft 365 credentials.
+2. On **Sign into Microsoft Azure** tab you will see login screen, in that enter following email/username and then click on **Next**. 
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+
+   ![screenshot of the prompt ](../Media/image7.png)
+
+3. Now enter the following password and click on **Sign in**.
+   * Password: <inject key="AzureAdUserPassword"></inject>
+   
+     ![screenshot of the prompt ](../Media/image8.png)
+
+  >**Note**: Close the welcome tour prompt. 
+
+4. In the site navigation, click on **Environments**, then click **+ New** on the toolbar.
+
+   ![screenshot of the prompt ](../Media/new11.png)
+
+5. Create a new Environment with the following settings:
+
+   - **Name**: **Copilot (1)**
+   - **Group**: **None (2)**
+   - **Region**: **United States - Default (3)**
+   - **Type**: **Sandbox (4)**
+   - **Add a Dataverse data store?**: **Yes (5)**
+  
+    ![screenshot of the prompt ](../Media/copilot-final-1-1-1.jpg) 
+
+6. Keep all other settings unchanged, Click on **Next**.  
  
-3. Skip the welcome tour by closing the prompt, or select **Get Started** to begin the tour and select **Next** through each prompt. At the end, select **Done** to finish the tour.
+9. On the **Add Dataverse** tab, under **Security group** use the **+ Select** button, and under **Open access**, select **None**.
+
+   ![screenshot of the prompt ](../Media/select-2.jpg)
+
+   ![screenshot of the prompt ](../Media/non-1.png)
+
+10. Select **Done** and select **Save**.
  
-4. Select **Environments** from the site navigation and select **+ New** from the toolbar.
+11. In the list of environments, your **Copilot** environment should now show as **Preparing**.
 
-   ![screenshot of the prompt ](../Media/new11.png) 
-
-5. For **Name**, enter **Copilot**
-
-6. For **Type**, select **Sandbox**.
-
-7. Change the toggle on **Add a Dataverse data store?** to **Yes**. Leave all other selections as default and select **Next**.
-
-   ![screenshot of the prompt ](../Media/coco.png) 
- 
-8. On the **Add Dataverse** tab, under **Security group** use the **+ Select** button, and under **Open access**, select **None**.
-
-   ![screenshot of the prompt ](../Media/sel.png)
-
-   ![screenshot of the prompt ](../Media/non.png)
-
-9. Select **Done** and select **Save**.
- 
-10. In the list of environments, your **Copilot** environment should now show as **Preparing**.
-
-11. Your practice environment will take a few minutes to provision. Refresh the **Environments** list if needed.
+>**Note**:Your practice environment will take a few minutes to provision. Refresh the **Environments** list if needed.
  
 12. When your environment shows as **Ready**, select your **Copilot** environment by selecting the ellipses next to the name to expand the drop-down menu and select **Settings**.
  
-13. Explore the different areas in **Settings** that you are interested in but do not make any changes.
+>**Note**: Browse through the various sections under **Settings** that interest you, but refrain from making any modifications.
 
 ## Task–02: Create an app with Copilot.
 
@@ -42,7 +54,7 @@
 
 2. Make sure you in the environment you previously created, in the center text field, enter the following prompt to search for an AI-generated table **build an app to manage real estate showings** , Select the Send button.
 
-   ![screenshot of the prompt ](../Media/01/copilot-chat-prompt-1.png) 
+   ![screenshot of the prompt ](../Media/copilot-chat-prompt-1-1.png) 
 
 3. After Copilot AI generates a table based on your prompt, look through the table to view the columns that are created for the start of your table.
 

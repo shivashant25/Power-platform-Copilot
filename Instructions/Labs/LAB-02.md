@@ -9,7 +9,7 @@ In this exercise, you will create an approval flow using Power Automate. Your ob
 In this lab, you will complete the following tasks:
 
 - Task 1 : Create an approval flow.
-- Task 2: Update the flow ,send an email and Run the App.
+- Task 2 : Update the flow ,send an email and Run the App.
   
 ## Task – 01: Create an approval flow.
 
@@ -247,3 +247,10 @@ Sign in to the email account that you're using for this lab and then wait for th
 
     ![screenshot of the prompt ](../Media/02/power-automate-copilot-flow-succeeded-1.png)
 
+## Summary
+
+In this lab, you have accomplished the following:
+
+- You have created an approval flow and updated it to send an email notification.
+
+- You have run the app to verify that the approval process and email notifications work correctly.

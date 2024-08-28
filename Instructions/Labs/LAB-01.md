@@ -1,6 +1,13 @@
 # Lab-01: Create a canvas app with Copilot in Power Apps.
 
-### Task 1 – Create environment
+**Lab Scenario:**
+
+In this exercise, you'll take on the role of a software developer tasked with creating a user-friendly canvas app using Power Apps Copilot. Your objective is to build an app designed to manage customer information effectively. Start by using Copilot to quickly generate a table with essential columns such as Customer ID, Full Name, Email, and Phone Number. Then, populate the table with sample data and make necessary adjustments, such as modifying column data types. Finally, design the app's interface to display and interact with the data, test its functionality, and publish the app for user access. This lab will showcase how Power Apps Copilot can streamline app development and enhance productivity.
+
+
+### Task 1 – Create Power Platform environment
+
+ In this task, you'll create and configure a new Power Platform environment to support app development and deployment. You'll set up essential details and adjust settings to meet your organizational needs.
  
 1. In the new browser tab, navigate to the **Power Platform admin center** by visiting `https://aka.ms/ppac`
 
@@ -38,7 +45,7 @@
 
    ![screenshot of the prompt ](../Media/non-1.png)
 
-10. Select **Done** and select **Save**.
+10. Select **none (1)** and select **Save (2)**.
  
 11. In the list of environments, your **Copilot** environment should now show as **Preparing**.
 
@@ -50,82 +57,76 @@
 
 ## Task–02: Create an app with Copilot.
 
-1. On the Home page in Power Apps `https://make.powerapps.com`
+In this task, you'll use Power Apps Copilot to quickly create a canvas app, including generating and populating tables with data. You'll then design the app interface and test its functionality.
 
-2. Make sure you in the environment you previously created, in the center text field, enter the following prompt to search for an AI-generated table **build an app to manage real estate showings** , Select the Send button.
+1. On the browser tab, go to `https://make.powerapps.com` to access Power Apps.
+
+2. Enter the following prompt to search for an AI-generated table **build an app to manage real estate showings** , Select the Send button.
 
    ![screenshot of the prompt ](../Media/copilot-chat-prompt-1-1.png) 
 
-3. After Copilot AI generates a table based on your prompt, look through the table to view the columns that are created for the start of your table.
+3. Once Copilot AI generates a table based on your prompt, review the table to see the columns that have been created initially.
 
    ![screenshot of the prompt ](../Media/01/copilot-table-1.png)
 
-4. In the text box, in the lower part of the Copilot pane to the right of the screen, enter the following text: **add a column to track client full name**.Select the Send button.
+4. In the text box at the bottom of the Copilot pane on the right side of the screen, type the following text: **add a column to track client full name**. Then, click the Send button.
 
    ![screenshot of the prompt ](../Media/01/copilot-table-new-column-1.png)
 
-    >**Note**: Copilot notifies you that the table is updated, and the new column should show as being added to the table.
+>**Note**: Copilot notifies you that the table is updated, and the new column should show as being added to the table.
 
-4. In the text box, in the lower part of the Copilot pane to the right of the screen, enter the following text: **add a column to track client email**. Select the Send button.
+4. Enter the following text: **add a column to track client email**. Then, click the Send button.
 
     ![screenshot of the prompt ](../Media/copilot-table-new-column-email-1-2.png)
 
-    >**Note**:
-    > - The data that's generated in your table might vary from the data that's shown in the table in the screenshots for this lab.
-    > - The Suggestions section in the lower-left corner of the screen provides you with different suggestions on how you can add to and modify your table.
+>**Note**:
+ - The data that's generated in your table might vary from the data that's shown in the table in the screenshots for this lab.
+ - The Suggestions section in the lower-left corner of the screen provides you with different suggestions on how you can add to and modify your table.
 
-5. In the text box, in the lower part of the Copilot pane to the right of the screen, enter the following text:	**add an option for “Completed” to the Status column**. Select the Send 
-   button.
+5. Enter the following text:	**add an option for “Completed” to the Status column**. Select the Send button.
 
    ![screenshot of the prompt ](../Media/01/edit-table-1.png)
 
-
-6. The system might take a minute to load. When it does, the Status column shows as updated and includes the option for Completed.
-
-7. Select the Status column name dropdown menu and then select View column where you can view the columns’ properties and the current status details and data.
-
-8. The status choices should be Pending, Confirmed, Cancelled, and Completed,Select the X in the upper-right corner of the pane to close it.
-
-9. Next, you'll add more data to your table and the existing columns. In the Copilot pane text box, enter and send the following text: **add 5 more rows of data** Five more rows of data are added for each existing column in the table.
+6. Enter the following text in the Copilot pane text box: **add 5 more rows of data**, Click Send. This action will insert five new rows of data for each existing column in your table.
 
     ![screenshot of the prompt ](../Media/copilot-table-new-rows-1-1.png)
 
-10. In the text box, in the lower part of the Copilot pane to the right of the screen, enter the following text: **add a column to track Client Address**. Select the Send button
-(2), To create the app, select the Create app button in the lower-right corner of the screen.(3)
+10. In the text box, in the lower part of the Copilot pane to the right of the screen, enter the following text: **add a column to track Client Address (1)**. Select the **Send button (2)**,Select the **Create (3)**
 
     ![screenshot of the prompt ](../Media/01/client-address-1.png)
 
-    > **Note**: Your table should have several columns. However, to continue following the modules in this learning path, try to remove some columns that you won't use:The list of columns that you need are: ID ,	Address , Date , Time , Status , Agent Name, Client Full Name, Client Email.
+    > **Note**: Your table may have several columns. Consider removing any columns that you do not plan to use:The list of columns that you need are: ID ,	Address , Date , Time , Status , Agent Name, Client Full Name, Client Email.
 
-11. When the app first loads, a dialog might appear stating Welcome to Power Apps Studio. If so, select the Skip button.
+ > **Note**: When you first open the app, you might see a welcome message.just click the **Skip** button.
 
-12. The app that has been built for you should show in Edit mode.
+12. The app that has been built for you should show in **Edit** mode.
 
     ![screenshot of the prompt ](../Media/01/reordsgallery-1.png)
 
 
 ## Task–03: Make edits using Copilot to edit your app.
 
-1. Within the **Data** pane To the right of the table, select the **ellipsis** From the menu select **Edit data**.
+In this task, you'll use Power Apps Copilot to make edits to your app, such as modifying existing elements, adding new features, and adjusting data. Copilot will guide you through streamlining and enhancing your app’s functionality and design.
+
+1. In the Data pane on the right side of the table, click the **ellipsis (three dots)**. From the menu that appears, Choose **Edit** data.
 
    ![screenshot of the prompt ](../Media/copilot-edit-data.png)
 
-2. Select the ID column header from the table.	From the dropdown menu, select the Edit column option.
+2. Select the **ID** column header from the table.	From the dropdown menu, Select the **Edit** column option.
    
    ![screenshot of the prompt ](../Media/01/copilot-edit-column-1.png)
   
-3. In this example, you don't want the Data type to be a Single line of text. To change that value, go to the Edit column pane, and then from the Date type dropdown menu, select # 
-     Autonumber,Select Save.Select the Close button in the lower-right corner of the Edit table dialog.
+3. In this example, you need to change the Data type from "Single line of text." To do this, go to the Edit column pane, select **#Autonumber** from the Data type dropdown menu, then click **Save**. Finally, select the **Close** button in the lower-right corner of the Edit table dialog.
 
    ![screenshot of the prompt ](../Media/01/save-column-1.png)
 
-4. The table should now show as Refreshed in the Data pane.
+4. Click on the **Ellipse** , Choose refresh.
 
    ![screenshot of the prompt ](../Media/01/copilot-refreshed-table-1.png)
 
-5. Modify the gallery in the application so that it displays the relevant data. Select the Tree view icon to return to the Tree view.
+5. Select the **Tree view** icon to return to the Tree view.
 
-6. On the app's main screen, select RecordsGallery1 to display Real Estate Showings and then select the edit button to put the gallery in edit mode.
+6. On the app's main screen, Select **RecordsGallery1** to display Real Estate Showings and then select the **edit** button to put the gallery in edit mode.
 
    ![screenshot of the prompt ](../Media/01/editing-1.png)
 
@@ -139,7 +140,7 @@
 
     ![screenshot of the prompt ](../Media/01/copilot-checkmark-2.png)
 
-11. On the app's main screen, select the Form control.
+11. On the app's main screen, select the **Form control**.
 
     ![screenshot of the prompt ](../Media/copilot-checkmark-1-1.png)
 

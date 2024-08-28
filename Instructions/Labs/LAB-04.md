@@ -44,18 +44,17 @@ In this task, you'll edit an existing flow using the designer with Copilot capab
    
 3.	Find your flow, select the **vertical ellipses (⋮)**, and then select **Edit**.
 
-   ![screenshot of the prompt ](../Media/04/copilot-edit.png)
+  ![screenshot of the prompt ](../Media/04/copilot-edit.png)
  
-      
->**Note** : Your flow opens with the Copilot pane on the side. You can now edit your flow by using the cloud flows designer with copilot capabilities. Try typing the following prompts.
+  >**Note** : Your flow opens with the Copilot pane on the side. You can now edit your flow by using the cloud flows designer with copilot capabilities. Try typing the following prompts.
 
-   - a.	Delete action X.
+  - a.	Delete action X.
 
-   - b.	I want to send an email at the end of the flow with subject equal to the SharePoint file name.
+  - b.	I want to send an email at the end of the flow with subject equal to the SharePoint file name.
 
-   - c .	Instead of email, I want to post message on Teams channel.
+  - c .	Instead of email, I want to post message on Teams channel.
 
-   - d.	Check if each of the Sharepoint items being returned has a title that equals 'USB', and if so, send an email.
+  - d.	Check if each of the Sharepoint items being returned has a title that equals 'USB', and if so, send an email.
 
 ## Summary 
 In this lab, you have accomplished the following:

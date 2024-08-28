@@ -29,7 +29,7 @@ In this task, you'll create a cloud flow in Power Automate to automate a specifi
 
    ![screenshot of the prompt ](../Media/05/select-new-flow.png)
 
-    >**Note**: If an automated cloud flow doesn't meet your requirements, you can create any other type of flow, Power Automate opens.
+   >**Note**: If an automated cloud flow doesn't meet your requirements, you can create any other type of flow, Power Automate opens.
 
 5. Give your flow a name as **my child flow**.
    
@@ -71,7 +71,7 @@ In this task, you'll add an owner to a cloud flow in Power Automate. You'll acce
    
 5. Add or remove other owners (but not the flow's creator), including guest users.
 
-    > Note: The creator or an owner of a cloud flow, you'll find it listed on the Team flows tab in Power Automate, Shared connections can be used only in the flow in which they were created.Owners can use services in a cloud flow but can't modify the credentials for a connection that another owner created.To add more owners to a cloud flow:
+   > Note: The creator or an owner of a cloud flow, you'll find it listed on the Team flows tab in Power Automate, Shared connections can be used only in the flow in which they were created.Owners can use services in a cloud flow but can't modify the credentials for a connection that another owner created.To add more owners to a cloud flow:
 
 6. Sign in to **https://make.powerautomate.com/**, and then select **My flows**.
    
@@ -100,7 +100,7 @@ In this task, you'll add a list of users as co-owners to a cloud flow in Power A
    
 5. In the confirmation dialog box, select **Remove**.
 
-    ![screenshot of the prompt ](../Media/edit.png)
+   ![screenshot of the prompt ](../Media/edit.png)
    
 ## Task-04: Send a copy of a cloud flow
 
@@ -110,7 +110,7 @@ In this task, you'll send a copy of a cloud flow to another user in Power Automa
    
 2. On the Send a copy panel, you can edit the name and description of the flow you want to share, and specify the users with whom you want to share it.the recipient will receive an email stating that you have shared a cloud flow template with them, and they can then create their own instance of that flow.
 
-    ![screenshot of the prompt ](../Media/05/sendacopy.png)
+   ![screenshot of the prompt ](../Media/05/sendacopy.png)
 
 ## Summary 
 
@@ -120,7 +120,6 @@ In this lab, you have accomplished the following:
 - You have added an owner to the cloud flow for full control and management.
 - You have designated a list of users as co-owners to enable collaborative management.
 - You have sent a copy of the cloud flow to another user for independent use or modification.
-
 
  ## You have successfully completed the lab
  

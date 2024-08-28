@@ -84,7 +84,6 @@ In this task, you'll create an approval flow using Power Automate to automate th
 
 20. Select the **Condition action**.
 
-
 21. Select the Choose a value box and then select **Outcome from the Dynamic content** pane.
 
     ![screenshot of the prompt ](../Media/02/power-automate-copilot-outcome.png)
@@ -144,7 +143,7 @@ In this task, you'll update the approval flow to refine its settings and configu
 
 7. For the Body field, enter the following text into the Copilot chat window and then press the Enter key on your keyboard:Add "Good day - Your request for a real estate showing has been approved. Please see below for details." as the Body parameter for the Send an email action. The Body field should populate with the prompt text.
 
-      ![screenshot of the prompt ](../Media/02/power-automate-copilot-body-parameter.png)
+   ![screenshot of the prompt ](../Media/02/power-automate-copilot-body-parameter.png)
 
 8. Enter the following content after the Body text:
 
@@ -228,11 +227,11 @@ In this task, you'll update the approval flow to refine its settings and configu
 25. Select the X in the upper-right corner to close out of the app.The flow runs and sends an approval email to the email address that you provided in the flow that you built.
 Sign in to the email account that you're using for this lab and then wait for the email to arrive.
 
-    >**Note** : If the flow doesn't run immediately, make sure that you wait for it. It might take up to 10 minutes for the flow to be triggered, especially on the first try.
+>**Note** : If the flow doesn't run immediately, make sure that you wait for it. It might take up to 10 minutes for the flow to be triggered, especially on the first try.
 
    - The approval should resemble the following image.
 
-      ![screenshot of the prompt ](../Media/02/power-automate-copilot-approval-email.png)
+     ![screenshot of the prompt ](../Media/02/power-automate-copilot-approval-email.png)
 
 26. Select **Approve**.Add a comment and then select **Submit**.
 

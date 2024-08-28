@@ -1,6 +1,21 @@
 # Lab-05: Share a cloud flow.
 
+## Lab scenario
+
+In this exercise, you will share a cloud flow with others using Microsoft Power Automate. Start by accessing the cloud flow you wish to share in the Power Automate portal. Use the sharing options to grant access to specific users or groups, setting their permissions appropriately. This process will allow collaborators to view, edit, or manage the flow as needed, enabling effective teamwork and workflow management. This lab will demonstrate how to manage and share cloud flows to enhance collaboration and productivity.
+
+## Lab Objectives
+
+In this lab, you will complete the following tasks:
+
+- Task-01 : Create A cloud Flow.
+- Task-02: Add an owner to a cloud flow.
+- Task-03: Add a list as a co-owner.
+- Task-04: Send a copy of a cloud flow.
+
 ## Task-01 : Create A cloud Flow
+
+In this task, you'll create a cloud flow in Power Automate to automate a specific process. You'll start by defining a trigger that initiates the flow, then configure actions and conditions to perform the desired tasks. This setup will streamline workflows and improve efficiency by automating repetitive or routine tasks.
 
 1. Sign into **https://make.powerautomate.com/**.
    
@@ -44,6 +59,8 @@
 
 ## Task-02: Add an owner to a cloud flow.
 
+In this task, you'll add an owner to a cloud flow in Power Automate. You'll access the flow's settings and use the sharing options to assign ownership to a new user or group. This process ensures that the designated owner has full control over the flow, including the ability to manage, edit, and configure it as needed.
+
 1. Adding an owner to a cloud flow is the most common way to share a cloud flow. Any owner of a cloud flow can perform these actions:
    
 2. View the **run history**.
@@ -71,7 +88,7 @@
 
 ## Task-03: Add a list as a co-owner
 
-You can add SharePoint lists as co-owners of a cloud flow so that everyone who has edit access to the list automatically gets edit access to the flow. After the flow is shared, you can simply distribute a link to it. 
+In this task, you'll add a list of users as co-owners to a cloud flow in Power Automate. You will access the flow's settings and use the sharing options to designate multiple users or groups as co-owners. This allows them to collaborate on managing, editing, and configuring the flow, ensuring efficient teamwork and shared responsibility.
 
 1. Create and set up a SharePoint list.
    
@@ -85,13 +102,25 @@ You can add SharePoint lists as co-owners of a cloud flow so that everyone who h
 
     ![screenshot of the prompt ](../Media/edit.png)
    
-## Task-04: **Send a copy of a cloud flow**
+## Task-04: Send a copy of a cloud flow
+
+In this task, you'll send a copy of a cloud flow to another user in Power Automate. You'll navigate to the flow you wish to share, use the options to create a copy, and send it to the intended recipient. This process allows the recipient to have their own version of the flow, which they can modify or use independently.
 
 1. On the flow details page command bar, select **Send a copy**.
    
 2. On the Send a copy panel, you can edit the name and description of the flow you want to share, and specify the users with whom you want to share it.the recipient will receive an email stating that you have shared a cloud flow template with them, and they can then create their own instance of that flow.
 
     ![screenshot of the prompt ](../Media/05/sendacopy.png)
+
+## Summary 
+
+In this lab, you have accomplished the following:
+
+- You have created a cloud flow to automate a specific process.
+- You have added an owner to the cloud flow for full control and management.
+- You have designated a list of users as co-owners to enable collaborative management.
+- You have sent a copy of the cloud flow to another user for independent use or modification.
+
 
  ## You have successfully completed the lab
  

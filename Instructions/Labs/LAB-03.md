@@ -1,6 +1,12 @@
-## Lab-03: Build a basic Power Automate flow in Microsoft Copilot Studio.
+# Lab-03: Build a basic Power Automate flow in Microsoft Copilot Studio.
+
+## Lab scenario
+
+In this exercise, you'll build a basic Power Automate flow using Microsoft Copilot Studio. You'll begin by launching Copilot Studio and selecting the option to create a new flow. Following Copilot's guidance, you'll set up a simple workflow by defining a trigger (such as receiving an email or a new item in a list) and configuring actions (like sending a notification or updating a record). After configuring the flow, you’ll test it to ensure it performs the desired tasks correctly. This lab will demonstrate how to use Copilot Studio to streamline the creation and deployment of automated workflows.
 
 ### Task-01: Create a new topic.
+
+In this task, you'll create a new topic in Power Automate to help organize and manage your flows. You’ll navigate to the Topics section, set up a descriptive name for the topic, and categorize relevant flows under it, enhancing workflow management and organization.
 
 1. Login to **https://copilotstudio.microsoft.com/** and get started login with the **<inject key="AzureAdUserEmail"></inject>** and choose the **Region** and enter the **dummy phone number**
 
@@ -36,7 +42,9 @@
 
 8. Within the top right corner of the screen, select the **Save** button to ensure that your work is saved.
 
- ## Task-02: Create your Power Automate flow
+ ## Task 02: Create your Power Automate flow.
+
+ In this task, you'll create a Power Automate flow to automate a specific process. You'll start by defining a trigger to initiate the flow, then set up actions to execute tasks based on the trigger. The goal is to streamline and automate repetitive processes, improving efficiency and productivity. 
 
 1. Select the **Add node button** below the question node to add a new node to the topic. Select **Call an action > Create a flow**. Power Automate opens in a new browser window 
 
@@ -72,7 +80,9 @@
 
 10. Select **Save** on the flow in Power Automate to ensure that it saves. Wait a moment until the green banner appears, indicating success then Select **Publish** .
 
-## Task-03 : Connect a Power Automate flow with Microsoft Copilot Studio.
+## Task 03 : Connect a Power Automate flow with Microsoft Copilot Studio.
+
+In this task, you'll connect a Power Automate flow with Microsoft Copilot Studio. You'll start by integrating your flow into Copilot Studio, allowing Copilot to assist in configuring and enhancing the flow. This connection enables streamlined automation and leverages Copilot’s capabilities to optimize and refine the flow’s functionality.
 
 1. In this task, you connect a Power Automate flow with Microsoft Copilot Studio `https://web.powerva.microsoft.com`
 

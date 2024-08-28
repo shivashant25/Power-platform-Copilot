@@ -214,3 +214,12 @@ In this task, you'll use Power Apps Copilot to make edits to your app, such as m
 26. If the system prompts you, save the app name as Real Estate Showings.
 
 27. Exit the app to return to the Power Apps home page.
+
+## Summary 
+
+In this lab, you have accomplished the following:
+
+- You have set up and configured a new Power Platform environment to support app development.
+- You have used Copilot to quickly build a canvas app and add data.
+- You have refined and modified the app’s design and functionality with Copilot’s assistance.
+

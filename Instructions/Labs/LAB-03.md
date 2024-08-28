@@ -4,6 +4,15 @@
 
 In this exercise, you'll build a basic Power Automate flow using Microsoft Copilot Studio. You'll begin by launching Copilot Studio and selecting the option to create a new flow. Following Copilot's guidance, you'll set up a simple workflow by defining a trigger (such as receiving an email or a new item in a list) and configuring actions (like sending a notification or updating a record). After configuring the flow, you’ll test it to ensure it performs the desired tasks correctly. This lab will demonstrate how to use Copilot Studio to streamline the creation and deployment of automated workflows.
 
+## Lab objectives
+
+In this lab, you will complete the following tasks:
+
+- Task-01 : Create a new topic.
+- Task 02 : Create your Power Automate flow.
+- Task 03 : Connect a Power Automate flow with Microsoft Copilot Studio.
+
+
 ### Task-01: Create a new topic.
 
 In this task, you'll create a new topic in Power Automate to help organize and manage your flows. You’ll navigate to the Topics section, set up a descriptive name for the topic, and categorize relevant flows under it, enhancing workflow management and organization.
@@ -121,3 +130,11 @@ In this task, you'll connect a Power Automate flow with Microsoft Copilot Studio
 	
 9. You successfully created a Power Automate flow and a new topic in Microsoft Copilot Studio that used the flow to provide real-time data from an external service to the user.
 
+## Summary 
+
+In this lab, you have accomplished the following:
+
+- You have created a new topic to organize and categorize your workflows effectively.
+- You have built a Power Automate flow to automate a specific process.
+- You have connected the flow with Microsoft Copilot Studio to leverage its capabilities for improved configuration and optimization.
+  

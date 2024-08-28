@@ -31,3 +31,10 @@ For convenience, you can open the lab guide in a separate window by selecting th
 Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
  
    ![screenshot of the prompt ](../Media/vmrunning.png) 
+
+Click "Next" from the bottom right corner to embark on your Lab journey!
+ 
+   ![Start Your Azure Journey](../Media/sc900-image(3).png)
+ 
+Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!
+
